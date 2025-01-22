@@ -482,8 +482,15 @@ header.page-title h1 {
     /*line-height: 30px;*/
     line-height: 1em;
     font-weight: normal;
-    padding: 22px 0 0 0 ;
-    margin: 0 0 22px 0;
+	
+	
+	
+	
+    /* padding: 22px 0 0 0 ; */
+       padding: 5px 0 0 0 ;
+	
+    /*margin: 0 0 22px 0;*/  
+	  margin: 0 0 4px 0 ;
     color: #363636;
     text-align: center;
 }
@@ -1434,10 +1441,12 @@ header.geo-title {
 /* Panorama info */
 .panorama-info {}
 #content .panorama-info header {
-    padding: 10px 10px 10px 10px;
-    border-bottom: 2px solid #ddd;
-    margin: 0 0 10px 0;
-}
+    padding: 1px 2px 2px 2px;
+/* 	    padding: 10px 10px 10px 10px;*/
+    /*border-bottom: 2px solid #ddd;*/
+	border-bottom: 0px solid #ddd;
+ /*   margin: 0 0 10px 0;*/
+    } margin: 0 0 1px 0;
 #content .panorama-info header h1 {
     text-align: left;
     padding: 0;
