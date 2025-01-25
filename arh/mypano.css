@@ -1,7 +1,26 @@
 body {
-    background: #efefef url("../images/page-bg.png") no-repeat top center;
+    /*background: #efefef url("../images/page-bg.png") no-repeat top center;*/
+  /* background: #efefef url("../images/page-bg.png") no-repeat top center; cover; background-size: 93%;  */
+  
 
-	    /* background: #f4f4f4 url("../images/page-bg.png") no-repeat top center;------------------------------*/ 
+ /*  
+   background-image: url("../images/page-bg.png");
+  background-repeat: no-repeat;
+  background-height: 250 px; /* Высота блока */
+ /* background-height: 150 px; /* Высота блока */	
+/*  background-position: top;
+  background-size: auto;
+
+  */
+	    /* background: #f4f4f4 url("../images/page-bg.png") no-repeat top center;------------   background: #efefef url("../images/page-bg.png") no-repeat top center;fixed; cover; background-size: 93%;------------------
+		
+		background: no-repeat;
+		background: url(page-bg.png) no-repeat top center ;	
+		
+		*/ 
+
+	  
+		
     font-family: Arial, sans-serif;
 /***************	font-weight: bold;----------------------*/
 
@@ -22,19 +41,56 @@ h1 {
 a {
     text-decoration: underline;
 	font-weight: normal;
+	font-weight: normal;
 	font-style: normal;
 }
 a:link {
 	/******************************    color: #1e5da0; ******************************/
     color: BLUE;
-}
+	color: Purple;
+	font-weight: bold;
+}	
 a:visited {
     color: #1e5da0;
+	
+	color: Orchid;
 }
 a:hover,
 a:active {
     color: #00366d;
+	    color: BLUE;
 }
+
+	/******************************   мой АА ******style="color:red; font-style:italic; font-weight: bold;font-size:140%; align=left; ************************/
+aa {
+	color:red;
+	font-style: italic; 
+	font-weight: normal;
+	font-weight: bold;
+    font-size:140%; 
+	text-align: left;
+}
+aa:link {	/******************************    color: #1e5da0; ******************************/
+    color: red;
+	color: Purple;
+	font-weight: bold;
+	text-decoration: underline;
+}	
+aa:visited {
+    color: red;
+	color: red;
+}    text-decoration: underline;
+aa:hover,
+aa:active {
+    color: #00366d;
+	color: red;
+		    text-decoration: underline;
+}
+
+
+	/***********************************************************/
+
+
 .notice {
     margin: 1em 0 0 0;
 }
