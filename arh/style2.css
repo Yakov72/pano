@@ -763,7 +763,7 @@ a.title-mini2:hover {
     width: 100%;
     background: #00addf;
 	background: #cecece;
-    background: linear-gradient(to top, #0193ca, #00b7ba);
+    background: linear-gradient(to top, #f1f1f1, #6a6b6b);
     padding-bottom: 26px; /*было 46*/
 
 }
