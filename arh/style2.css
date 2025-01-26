@@ -423,8 +423,10 @@ a.title-mini2:hover {
 .header-title {
     position: absolute;
     left: 228px;
+	    left: 180px;
+		
     top: 100px;
-	
+	top: 0px;
 	
 	
 }
@@ -554,6 +556,7 @@ a.title-mini2:hover {
     line-height: 46px;
     display: block;
     height: 46px;
+	    height: 30px;
     padding: 0 8px;
 }
 .menu ul li:hover {
@@ -759,6 +762,7 @@ a.title-mini2:hover {
 .blue {
     width: 100%;
     background: #00addf;
+	background: #cecece;
     background: linear-gradient(to top, #0193ca, #00b7ba);
     padding-bottom: 26px; /*было 46*/
 
@@ -1251,12 +1255,18 @@ ul.object-types{margin:0;padding-left:0;}
 ul.object-types li, ul.objects li{list-style:none;margin-bottom:10px;}
 ul.object-types li a.type{
     padding: 3px 10px;
+	padding: 3px 3px;
     background-image: url("/local/templates/arkh/images/bg_types.jpg");
     background-repeat: no-repeat;
     opacity: 1;
     line-height: 30px;
+	line-height: 30px;
+	
     color: #111;
-    font-size: 20px;
+	color: #9a6624;
+	
+    font-size: 25px;
+	    font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
     transition: opacity 0.1s linear;
