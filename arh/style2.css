@@ -1253,6 +1253,7 @@ li .s{
 /* ALL OBJECTS */
 ul.object-types{margin:0;padding-left:0;}
 ul.object-types li, ul.objects li{list-style:none;margin-bottom:10px;}
+ul.object-types li, ul.objects li{list-style:none;margin-bottom:5px;}
 ul.object-types li a.type{
     padding: 3px 10px;
 	padding: 3px 3px;
