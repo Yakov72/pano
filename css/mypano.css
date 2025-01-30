@@ -4,16 +4,16 @@ body {
 	    /* background: #f4f4f4 url("../images/page-bg.png") no-repeat top center;------------------------------*/ 
     font-family: Arial, sans-serif;
 /***************	font-weight: bold;----------------------*/
-
-	color: #005300;
+ 
+/*	color: #005300;*/
     font-size: 13px;
     line-height: 18px;
 		font-weight: bold;
 		font-style:italic;
-    color: #green;
-}
+    color: green; 
+} 
 menu li {
-    list-style: none;
+    list-style: none; 
 }
 h1 {
     /*line-height: 1.2em;----------------------------*/
@@ -21,7 +21,8 @@ h1 {
 }
 a {
     text-decoration: underline;
-	font-weight: normal;
+	font-weight: bold;
+/*****	font-weight: normal;---*/
 	font-style: normal;
 }
 a:link {
@@ -35,6 +36,36 @@ a:hover,
 a:active {
     color: #00366d;
 }
+
+/*********** */
+a.aa {
+	color:red;
+	font-style: italic; 
+	font-weight: normal;
+	font-weight: bold;
+    font-size:120%; 
+	text-align: left;
+}
+aa:link {	/******************************    color: #1e5da0; ******************************/
+    color: red;
+	color: Purple;
+	font-weight: bold;
+	text-decoration: underline;
+}	
+aa:visited {
+    color: red;
+	color: red;
+}    text-decoration: underline;
+aa:hover,
+aa:active {
+    color: #00366d;
+	color: red;
+		    text-decoration: underline;
+}
+/*****  **********/ 
+
+
+
 .notice {
     margin: 1em 0 0 0;
 }
@@ -1446,7 +1477,8 @@ header.geo-title {
     /*border-bottom: 2px solid #ddd;*/
 	border-bottom: 0px solid #ddd;
  /*   margin: 0 0 10px 0;*/
-    } margin: 0 0 1px 0;
+ margin: 0 0 1px 0;
+    } 
 #content .panorama-info header h1 {
     text-align: left;
     padding: 0;
@@ -1485,7 +1517,9 @@ header.geo-title {
     margin: 0 0 10px 0;
 }
 .panorama-info .pano-item {
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
+	
+	/*-----------------------    margin: 0 0 10px 0; */
     overflow: hidden;
 }
 .panorama-info .pano-item .item-title {
