@@ -24,23 +24,22 @@ a {
 	font-weight: bold;
 /*****	font-weight: normal;---*/
 	font-style: normal;
-         outline-style: none;
+        
+        outline-style: none;
+        
+        
         text-decoration-line: none;
 }
 a:link {
 	/******************************    color: #1e5da0; ******************************/
     color: BLUE;
-             border-radius: 35px;    
+             border-radius: 15px;    
              border-top-left-radius:0%;
-             border-right-color: #ffffff; 
-             border-top-color: #ffffff; 
              border-bottom-right-radius:0%;
      /*    border: 1px solid #f76707;***/
-     border: 4px groove #ffffff;
-         	/****     border: 5px groove #ffffff;**********    color: #ffffff; под ссылкой ******************************/
-         border-right-width:43;
-         border-left-width:43;       
-                background-color: #ffffff; 
+     border: 5px groove #ffffff;
+         	/******************************    color: #ffffff; под ссылкой ******************************/
+         background-color: #ffffff; 
 }
 a:visited {
          border: 3px groove #ffffff;
@@ -49,10 +48,7 @@ a:visited {
 }
 a:hover,
 a:active {
-    /*color: #00366d;
-    NAVI navi #000080!!  magenta !!
-    */
-    color: #ff00ff;
+    color: #00366d;
 }
 
 /*********** */
