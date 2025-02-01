@@ -1,0 +1,26 @@
+element.style {
+    padding-left: 7px;
+    padding-right: 7px;
+	
+	
+	element.style {
+    padding-left: 6px;
+    padding-right: 6px;
+	
+	
+	    cursor: pointer;
+     
+	 
+		
+<a href="https://1panorama.ru/world/russia-1/arxangelskaya-oblast-173/vershinino-918/2011-07-20-d-vershinino-vid-s-prichala-na-kenozero-i-vizit-centr-nachalo-virtualnogo-puteshestviya-po-pleseckomu-sektoru-kenozerskogo-nacionalnogo-parka-panorama7176" style="
+    border-top-width: 2px;
+">Плесецкий сектор</a>
+  
+  
+      border-top-width: 2px;
+	  
+	  
+	  hr {
+    margin-bottom: 3px;
+    margin-top: 3px;
+	}
