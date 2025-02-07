@@ -11,7 +11,7 @@ body {
 		font-weight: bold;
 		font-style:italic;
     color: green; 
-	
+
 	
 	
 } 
@@ -28,14 +28,17 @@ h1 {
 }
 a {
     text-decoration: underline;
+		text-decoration: none;
 	font-weight: bold;
 /*****	font-weight: normal;---*/
 	font-style: normal;
          outline-style: none;
-        text-decoration-line: none;
+
 		
 	padding-left: 6px;
     padding-right: 6px;
+	
+	text-wrap-mode: nowrap;
 }
 a:link {
 	/******************************    color: #1e5da0; ******************************/
@@ -48,8 +51,8 @@ a:link {
      /*    border: 1px solid #f76707;***/
      border: 4px groove #ffffff;
          	/****     border: 5px groove #ffffff;**********    color: #ffffff; под ссылкой ******************************/
-         border-right-width:43;
-         border-left-width:43;   
+/*         border-right-width:43;
+         border-left-width:43;   */
     border-top-width: 2px;		 
                 background-color: #ffffff; 
 }
@@ -85,7 +88,8 @@ aa:link {	/******************************    color: #1e5da0; *******************
 aa:visited {
     color: red;
 	color: red;
-}    text-decoration: underline;
+        text-decoration: underline;
+}    
 aa:hover,
 aa:active {
     color: #00366d;
@@ -110,7 +114,13 @@ aa:active {
 	
    /*  width: 1240px;*/ 
 	/*    width: 740px;*/
+
 	
+
+
+
+
+		
     margin: 0 auto;
     background-color: #fff;
 }
@@ -359,13 +369,17 @@ article figure img {
 }
 #head_search input[type="search"]{
     width: 110px;
+	width: 110px;
     padding: 0 20px 0 0;
+	    padding: 0 0 0 0;
     margin: 3px 0 0 0;
 }
 #head_search input[type="submit"]{
     width: 18px;
     height: 18px;
     position: absolute;
+  /*  position: absolute;	*/
+	position: static;
     right: 0;
     top: 5px;
     /*height: 100%;*/
@@ -2258,6 +2272,8 @@ aside .likes-buttons .lb{
         height: 330px;
     }
 }
+
+
 /****************************** ADAPTIVE SETTINGS ******************************/
 /*
 @media all and (max-width: 1260px){
@@ -2289,3 +2305,16 @@ aside .likes-buttons .lb{
     }
 }
 */
+
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.pano-items {
+
+}

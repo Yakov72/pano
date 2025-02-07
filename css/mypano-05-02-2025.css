@@ -11,7 +11,14 @@ body {
 		font-weight: bold;
 		font-style:italic;
     color: green; 
+
+	
+	
 } 
+	  hr {
+    margin-bottom: 3px;
+    margin-top: 3px;
+	}
 menu li {
     list-style: none; 
 }
@@ -21,25 +28,31 @@ h1 {
 }
 a {
     text-decoration: underline;
+		text-decoration: none;
 	font-weight: bold;
 /*****	font-weight: normal;---*/
 	font-style: normal;
-        
-        outline-style: none;
-        
-        
-        text-decoration-line: none;
+         outline-style: none;
+
+		
+	padding-left: 6px;
+    padding-right: 6px;
 }
 a:link {
 	/******************************    color: #1e5da0; ******************************/
     color: BLUE;
-             border-radius: 15px;    
+             border-radius: 35px;    
              border-top-left-radius:0%;
+             border-right-color: #ffffff; 
+             border-top-color: #ffffff; 
              border-bottom-right-radius:0%;
      /*    border: 1px solid #f76707;***/
-     border: 5px groove #ffffff;
-         	/******************************    color: #ffffff; под ссылкой ******************************/
-         background-color: #ffffff; 
+     border: 4px groove #ffffff;
+         	/****     border: 5px groove #ffffff;**********    color: #ffffff; под ссылкой ******************************/
+/*         border-right-width:43;
+         border-left-width:43;   */
+    border-top-width: 2px;		 
+                background-color: #ffffff; 
 }
 a:visited {
          border: 3px groove #ffffff;
@@ -48,7 +61,11 @@ a:visited {
 }
 a:hover,
 a:active {
-    color: #00366d;
+    /*color: #00366d;
+    NAVI navi #000080!!  magenta !!
+    */
+
+		color: red;
 }
 
 /*********** */
@@ -69,7 +86,8 @@ aa:link {	/******************************    color: #1e5da0; *******************
 aa:visited {
     color: red;
 	color: red;
-}    text-decoration: underline;
+        text-decoration: underline;
+}    
 aa:hover,
 aa:active {
     color: #00366d;
@@ -94,7 +112,13 @@ aa:active {
 	
    /*  width: 1240px;*/ 
 	/*    width: 740px;*/
+
 	
+
+
+
+
+		
     margin: 0 auto;
     background-color: #fff;
 }
@@ -343,7 +367,9 @@ article figure img {
 }
 #head_search input[type="search"]{
     width: 110px;
+	width: 110px;
     padding: 0 20px 0 0;
+	    padding: 0 0 0 0;
     margin: 3px 0 0 0;
 }
 #head_search input[type="submit"]{
@@ -501,7 +527,8 @@ article.content-block {
     color: #ddd;
     background-color: #ddd;
     border: none;
-    height: 2px;
+	   /* height: 3px;*/
+    height: 3px;
     clear: both
 }
 #content.full-width {
@@ -2241,6 +2268,8 @@ aside .likes-buttons .lb{
         height: 330px;
     }
 }
+
+
 /****************************** ADAPTIVE SETTINGS ******************************/
 /*
 @media all and (max-width: 1260px){
@@ -2272,3 +2301,16 @@ aside .likes-buttons .lb{
     }
 }
 */
+
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.pano-items {
+
+}
