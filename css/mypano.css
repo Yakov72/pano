@@ -1,6 +1,7 @@
 body {
     background: #efefef url("../images/page-bg.png") no-repeat top center;
 
+
 	    /* background: #f4f4f4 url("../images/page-bg.png") no-repeat top center;------------------------------*/ 
     font-family: Arial, sans-serif;
 /***************	font-weight: bold;----------------------*/
@@ -12,7 +13,7 @@ body {
 		font-style:italic;
     color: green; 
 
-	
+	    margin-top: 3px;
 	
 } 
 	  hr {
@@ -360,8 +361,6 @@ article figure img {
 	#head_search {
 
 
- top: 20px;
-    right: 10px;
 
 
 	
@@ -989,16 +988,6 @@ header.geo-title {
 }
 #auth_form .row input {
     font-size: 16px;
-    height: 25px;
-    width: 220px;
-}
-#auth_form .padding_row {
-    padding: 0 0 0 100px;
-    margin: 5px 0;
-}
-#auth_form .padding_row.restore_password {
-    margin: 0 0 15px 0;
-    font-size: 12px;
 }
 #auth_form .padding_row.buttons_row {
     margin: 15px 0;
@@ -2274,6 +2263,46 @@ aside .likes-buttons .lb{
 }
 
 
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.your-style {
+    font-family: 'Caveat';
+    font-weight: bold;
+    font-style: normal;
+    color : red; 
+    
+}
+/*#pano_ya_emb .map-circle-placemark__caption */
+#pano_ya_emb 
+{
+    white-space: wrap;
+
+    overflow: hidden;
+    max-width: 250px;
+    padding-right: 8px;
+    border-radius: 999px;
+    display: inline;
+
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26px;
+    top: -13px;
+    left: -13px;
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    line-height: 12px;
+    color: red;
+}
 /****************************** ADAPTIVE SETTINGS ******************************/
 /*
 @media all and (max-width: 1260px){
@@ -2306,15 +2335,3 @@ aside .likes-buttons .lb{
 }
 */
 
-   .leftimg {
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-   }
-   .rightimg  {
-    float: right; /* Выравнивание по правому краю  */ 
-    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
-   }
-
-.pano-items {
-
-}
