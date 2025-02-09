@@ -59,7 +59,7 @@ a:link {
 }
 a:visited {
          border: 3px groove #ffffff;
-         background-color: #ffffff; 
+         background-color: #eeeeee; 
     color: #1e5da0;
 }
 a:hover,
@@ -70,6 +70,12 @@ a:active {
 
 		color: red;
 }
+
+a:active {
+
+		color: red;
+}
+
 
 /*********** */
 a.aa {
@@ -2280,9 +2286,11 @@ aside .likes-buttons .lb{
     
 }
 /*#pano_ya_emb .map-circle-placemark__caption */
-#pano_ya_emb 
-{
-    white-space: wrap;
+#pano_ya_emb .map-circle-placemark._size_medium .map-circle-placemark__caption {
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+   /* white-space: wrap;
 
     overflow: hidden;
     max-width: 250px;
@@ -2301,7 +2309,12 @@ aside .likes-buttons .lb{
     font-size: 12px;
     line-height: 16px;
     line-height: 12px;
-    color: red;
+    color: red;*/
+	    font-size: 12px;
+
+    line-height: 12px;
+	  color: red;
+	
 }
 /****************************** ADAPTIVE SETTINGS ******************************/
 /*
