@@ -40,6 +40,11 @@ a {
     padding-right: 6px;
 	
 	text-wrap-mode: nowrap;
+        
+        
+        
+        
+        
 }
 a:link {
 	/******************************    color: #1e5da0; ******************************/
@@ -69,6 +74,18 @@ a:active {
     */
 
 		color: red;
+              /* text-decoration: underline;*/
+               
+               text-decoration-color: rgb(0, 0, 255);
+text-decoration-line: underline;
+text-decoration-skip-ink: none;
+text-decoration-style: wavy;
+ text-decoration-style: solid;
+text-decoration-color: #2e9aff;
+text-decoration-thickness:  3px;
+               
+               
+               
 }
 
 a:active {
@@ -78,26 +95,35 @@ a:active {
 
 
 /*********** */
-a.aa {
+.aa {
 	color:red;
 	font-style: italic; 
 	font-weight: normal;
 	font-weight: bold;
-    font-size:120%; 
+    font-size:100%; 
 	text-align: left;
+        
+        
+        color:FireBrick; font-style:normal; font-weight: bold;font-size:100%; 
+         border-radius: 5px;     
+         border: 2px solid #f76707;
+         background-color: #ddd;
+         
+cursor: pointer;
+
+	 
 }
-aa:link {	/******************************    color: #1e5da0; ******************************/
-    color: red;
-	color: Purple;
-	font-weight: bold;
-	text-decoration: underline;
+.aa A:link {	/******************************    color: #1e5da0; ******************************/
+        color:FireBrick; 
+         background-color: #ddd;
+             font-size: 13px;
 }	
-aa:visited {
-    color: red;
-	color: red;
+.aa A:visited {
+
+	color: FireBrick; 
         text-decoration: underline;
 }    
-aa:hover,
+.aa A:hover,
 aa:active {
     color: #00366d;
 	color: red;
@@ -1760,17 +1786,24 @@ aside .likes-buttons .lb{
 /****************************** FOOTER ******************************/
 #page_footer {
     position: relative;
-    height: 90px;
+    height: 45px;
     padding: 3px 10px;
     color: #fff;
+
     border-top: 4px solid #515151;
+    border-top: 0px solid #515151;
     background-color: #5e5e5e;
 }
 #page_footer a {
-    color: #fff;
+    color: blue;
     display: inline-block;
     padding: 0 10px;
 }
+
+#page_footer a:hover, a:active {
+    color: red;
+}
+
 #page_footer td {
     text-align: center;
     font-size: 14px;
