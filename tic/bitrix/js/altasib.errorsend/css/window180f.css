@@ -1,0 +1,7 @@
+#altasib_ErrorWindow,#altasib_ErrorWindow_long,#altasib_ErrorWindow_ok{padding: 0px;max-width: 100%;}
+.altasib_ErrorTitleBar{padding: 22px;font-size: 18px;font-weight: bold; font-size:16px; color:#143f6d}
+#popup-window-content-altasib_ErrorWindow, #error-comment{background-color: #fff;resize:vertical;}
+#altasib_ErrorWindow .popup-window-titlebar,#altasib_ErrorWindow_long .popup-window-titlebar,#altasib_ErrorWindow_ok .popup-window-titlebar{height: 70px;border-bottom: 2px solid #3a500e;}
+#altasib_ErrorWindow .popup-window-buttons,#altasib_ErrorWindow_long .popup-window-buttons,#altasib_ErrorWindow_ok .popup-window-buttons{padding: 20px 0 20px;}
+#altasib_SendErrorOk, #altasib_SendError_LongText{padding: 50px;}
+#altasib_ErrorWindow .popup-window-close-icon:after, #altasib_ErrorWindow_long .popup-window-close-icon:after, #altasib_ErrorWindow_ok .popup-window-close-icon:after{width: 20px;height: 20px;}
