@@ -1805,7 +1805,8 @@ body{
     position:relative;
     margin-bottom:20px;
     font-size:0;
-    line-height:0
+    line-height:0;
+	text-transform: none;
 }
 .site-aside .site-aside__logo .header-logo__ico{
     width:92px;
@@ -1824,7 +1825,14 @@ body{
     font:11px/15px "Roboto Bold", sans-serif;
     color:#1e1e1e;
     letter-spacing:0.1em;
-    text-transform:uppercase
+    text-transform:uppercase;
+	
+	/*-------------------*/
+    padding-left: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+	
 }
 .site-aside .top-menu-list .top-menu-list__item{
     border-bottom:1px solid #d3d3d3
@@ -1837,7 +1845,7 @@ body{
     -moz-transition:all 0.3s ease;
     -o-transition:all 0.3s ease;
     transition:all 0.3s ease;
-    padding:7px 15px 7px 0;
+    padding:7px 15px 7px 0;  padding-left: 10px;
     font:14px/14px "Roboto Regular", sans-serif;
     color:#8a9191
 }
@@ -4404,7 +4412,18 @@ body{
     right:10px
 }
 .content-styles p{
-    margin:0 0 22px 0
+    margin:0 0 0 0
+	    text-align: justify;
+		
+	    text-align: justify;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    margin-right: 5px;
+    margin-left: 5px;	
+		
+    margin-bottom: 5px;
+	    text-align: justify;
+    margin-right: 15px;
 }
 .content-styles p a{
     -webkit-transition:all 0.3s ease;
@@ -6459,7 +6478,8 @@ body{
     transition:all 0.3s ease;
     position:relative;
     font:14px/22px "Roboto Regular", sans-serif;
-    color:#1e1e1e
+    color:#1e1e1e; 
+	    text-wrap-mode: wrap;
 }
 .no-touchevents .news-list .news-list__link:hover .news-list__title,.no-touchevents .news-list .news-list__link:hover .news-list__title h2{
     color:#1c72ac
