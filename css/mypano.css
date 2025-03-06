@@ -92,7 +92,9 @@ a:active {
 
 		color: red;
 }
-
+mb {
+ color:blue;   
+}
 
 /*********** */
 .aa {
@@ -100,14 +102,19 @@ a:active {
 	font-style: italic; 
 	font-weight: normal;
 	font-weight: bold;
-    font-size:100%; 
+        font-size:100%; 
 	text-align: left;
-        
-        
-        color:FireBrick; font-style:normal; font-weight: bold;font-size:100%; 
+        color:FireBrick; 
+        font-style:normal; 
+        font-weight: bold;
+         font-size:100%; 
          border-radius: 5px;     
          border: 2px solid #f76707;
+         
          background-color: #ddd;
+
+    padding-bottom: 2px;
+    padding-top: 2px;
          
 cursor: pointer;
 
@@ -116,18 +123,23 @@ cursor: pointer;
 .aa A:link {	/******************************    color: #1e5da0; ******************************/
         color:FireBrick; 
          background-color: #ddd;
+         background-color: #fff;
              font-size: 13px;
 }	
 .aa A:visited {
 
 	color: FireBrick; 
         text-decoration: underline;
+        background-color: #eee;
 }    
 .aa A:hover,
 aa:active {
     color: #00366d;
 	color: red;
 		    text-decoration: underline;
+                     text-decoration-style: solid;
+text-decoration-color: #2e9aff;
+text-decoration-thickness:  3px;
 }
 /*****  **********/ 
 
@@ -399,21 +411,20 @@ article figure img {
 	
 }
 #head_search input[type="search"]{
-    width: 110px;
-	width: 110px;
-    padding: 0 20px 0 0;
+    width: 120px;
+
 	    padding: 0 0 0 0;
-    margin: 3px 0 0 0;
+
 }
 #head_search input[type="submit"]{
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     position: absolute;
-  /*  position: absolute;	*/
-	position: static;
-    right: 0;
-    top: 5px;
-    /*height: 100%;*/
+ 
+
+    right: -22px;
+    top: 0px;
+   height: 100%;
     /*margin-left: -20px;*/
     border: none;
     background: transparent url("../images/search-ico.png") no-repeat bottom center;
