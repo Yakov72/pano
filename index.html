@@ -36,26 +36,39 @@
 <link rel="stylesheet" type="text/css" href="./css/mypano.css" >
 <link rel="stylesheet" type="text/css" href="./css/my_rukopis_font.css" >
 <link rel="icon"  href="./favicon.png" >
-<title>ГЛАВНАЯ СТАРТОВАЯ ПАНОРАМА ВИРТУАЛЬНОГО ТУРА ПО АРХАНГЕЛЬСКУ. КРАСНАЯ ПРИСТАНЬ</title>     
+<title>ГЛАВНАЯ СТАРТОВАЯ ПАНОРАМА ВИРТУАЛЬНОГО ТУРА ПО АРХАНГЕЛЬСКУ. КРАСНАЯ ПРИСТАНЬ</title>    
+
+<script  src="jquery-2.1.0.min.js"></script>
+   <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("tf-top.html"); 
+    });
+    </script>   
 
 </head>  
 <body >
-
+ <!-------                 --------------------------->	  
+    
 <canvas style=" 
   background: linear-gradient(to bottom, #ffffff, #ADD8E6);
    position: fixed; top: 0px; left: 0px; background-color: #edf3ff; 
-   z-index: 2201;   "  id="tutorial1" width="1920" height="67"    
+   z-index: 2201;   "  
+   id="tutorial1" 
+   width="1920" height="67"    
    title="Кликните по ссылке, вернуться в начало главной страницы  виртуального тура 
-Подробнее вы можете почитать на сайте в разделе `ПОМОЩЬ!!!!!!!!!!!` "  >
+Подробнее вы можете почитать на сайте в разделе `ПОМОЩЬ` "  >
 </canvas>
 <canvas style=" 
   background: linear-gradient(to bottom, #FFFFFF, #ADD8E6);
-   position: fixed; top: 0px; left: 1921px; background-color: #edf3ff;  
-   z-index: 2201;"  id="tutorial2" width="1920" height="67" 
+   position: fixed; top: 0px; left: 1922px; background-color: #edf3ff;  
+   z-index: 2201;"  
+   id="tutorial2" 
+   width="1918" height="67" 
    title="Кликните по ссылке, вернуться в начало главной страницы  виртуального тура 
-Подробнее вы можете почитать на сайте в разделе `ПОМОЩЬ!!!!!!!!!!!` "  >
+Подробнее вы можете почитать на сайте в разделе `ПОМОЩЬ` "  >
 </canvas>
-
+   
 
  <a href="https://gotoarkhangelsk.ru" target="_blank" >
      <img src="gerb.png" height="55"  alt="карта" 
@@ -71,12 +84,11 @@
   <a href="https://gotoarkhangelsk.ru" target="_blank"   
           onmouseover="gotoarh_dost.style.visibility='visible'";
           onmouseout="gotoarh_dost.style.visibility='hidden'";
-      style="position: fixed; right: 50px; top:-2px; 
+      style="position: absolute; right: 50px; top:-2px; 
       font-size: 95%; line-height: 16px;
       margin: 3px; z-index: 2276;
-         
-         background-color: #eeeeee;
-         opacity: 0.8;"
+      background-color: #eeeeee;
+      opacity: 0.8;"
        title="
 Официальный туристический сайт Администрации г. Архангельска  предлагает
     множество вариантов времяпрепровождения в городе, поможет спланировать 
@@ -94,8 +106,7 @@
 Сайт www.arhcity.ru - Официальный информационный интернет-портал г. Архангельска">  
 Официальный туристический сайт&nbsp;&nbsp;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Администрации г. Архангельска</a>
-
-  <!------- background-color: #edf3ff;                --------------------------->	 
+  <!-------           --------------------------->	 
  <a class="your-style"  
     style=" font-size: 210%; 
     scale: 100% 75%; 
@@ -105,7 +116,6 @@
     letter-spacing: -1px;
     color : red;
    position: fixed; top: -7px; left: 3px; 
-   
    background-color: #eeeeee;
    border-top-right-radius: 188px; 
    border-bottom-left-radius: 38px; 
@@ -123,15 +133,6 @@ text-decoration-style: solid;
 text-decoration-thickness: 3px;    
 text-decoration-skip-ink: none;">
     
-          
- <!---          
-          &#128681;<span  style=" letter-spacing: -25px;">_</span>
-          <span  style=" letter-spacing: -3px;">_ </span>&#171; В&nbsp;
-     &nbsp;А&nbsp;р&nbsp;х&nbsp;а&nbsp;н&nbsp;г&nbsp;е&nbsp;л&nbsp;ь&nbsp;с&nbsp;к&nbsp;[ у Ю ]|&thinsp;&nbsp;
-     в&nbsp;о&nbsp;к&nbsp;р&nbsp;у&nbsp;г&thinsp;&nbsp; &nbsp;м&nbsp;а&nbsp;р&nbsp;ш &#187;&nbsp;!&nbsp;
-     <span  style=" letter-spacing: -3px;">_&nbsp;&nbsp;</span>
-      </span>
-     <br>-->
            &#128681;<span  style=" letter-spacing: -5px;"></span>
           <span  style=" letter-spacing: -3px;">__ </span>"&nbsp;В&nbsp;
      &nbsp;А&nbsp;р&nbsp;х&nbsp;а&nbsp;н&nbsp;г&nbsp;е&nbsp;л&nbsp;ь&nbsp;с&nbsp;к&nbsp;[ у Ю ]|&thinsp;&nbsp;
@@ -148,8 +149,6 @@ text-decoration-style: solid;
 text-decoration-thickness: 3px;  ">       
          &nbsp;\&nbsp;"<mb>._&lt;≈</mb>&nbsp;в&nbsp;
          начало&nbsp;виртуального&nbsp;путешествия&nbsp;на&nbsp;360°<mb> © ≈&nbsp;</mb>&nbsp;</span></a>
-  
-  
  <pre style=" 
       font-size: 105%; 
       font-weight: bold;  
@@ -166,23 +165,19 @@ text-decoration-thickness: 3px;  ">
    border-bottom-width: 3px;
        border-bottom-left-radius: 50px;
    position: fixed; top: 27px; right : 54px; 
-   background-color: #f4f4f4; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#yandexmap2">Спутник</a><a href="#yandexmap1">Схема</a></pre> 
-       <!---- &nbsp;Яндекс-Карты&nbsp;<a href="#yandexmap2">Спутник</a>,<a href="#yandexmap1">Схема</a></pre> --->
-  
+   background-color: #f4f4f4; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#yandexmap2" title="Яндекс - спутниковая карта">Спутник</a><a href="#yandexmap" title="Яндекс -  карта-схема">Схема</a></pre> 
+
   <span  style="   position: fixed; 
          top: 40px; 
          right : 180px;   
-         
          z-index: 2277; 
       font-size: 105%; 
       font-weight: bold;  
       font-size: 10px;
       line-height: 12px; 
      font-style: normal;
-      color : red;"         title="Яндекс<br>Карты
-ПЯндекс<br>КартытуреПом ощь,о Яндекс<br>КартыщьЯндекс<br>Яндекс<br>Картыр еПом ощь,о туре">
+      color : red;"         title="Яндекс<br>Карты ПндексА<br>Помощь<br>о туре">
       Яндекс<br>Карты</span>
- 
 
 <form id="head_search" 
 style="position: fixed;
@@ -193,14 +188,10 @@ style="position: fixed;
     border: 2px;  
     border-color: #00366d;
     background-color: #44f4f4; 
-         border-color: rgb(64, 64, 64);
-             margin-bottom: 0px;"
-
+    border-color: rgb(64, 64, 64);
+    margin-bottom: 0px;"
     action="https://1panorama.ru/search/index"
-    
-        title="6 65 56 
-Помощь,о ь,о туреПом ощь,о тур еПомощь,о туре ур еПом ощь,о туре"
-    >
+      title="Введите строку для поиска панорамы или места"     >
 <input 
 style="
 width: 155px;
@@ -220,11 +211,9 @@ type="search" placeholder="Поиск,напр. КОРЕЛЫ" name="q" value="">
     href="index.html#instr" 
     target="_blank"
     title="
-Помощь,о туреПомощь,о туреПомощь,о туреПомощь,о туреПомощь,о 
-туреПомощь,о туреПомощь,о туреПомощь,о туре"
+О туре / инструкция "
     >О туре</a>
- 
- 
+
  <img src="info-q.png"   alt="карта" 
     style=" 
     width: 23px;
@@ -239,11 +228,8 @@ type="search" placeholder="Поиск,напр. КОРЕЛЫ" name="q" value="">
        opacity: 1.0;
        background-color: #cccccc; 
          border-radius: 4px;
-   z-index: 2276; "
-    >
-   
- 
- 
+   z-index: 2276; "   >
+     
  <a style="position: fixed;
     top:44px;    
     left: 242px;
@@ -253,28 +239,22 @@ type="search" placeholder="Поиск,напр. КОРЕЛЫ" name="q" value="">
     href="#instr" 
     target="_self"
     title="
-Помощь,о туреПомощь,о туреПомощь,о туреПомощь,о туреПомощь,о 
-туреПомощь,о туреПомощь,о туреПомощь,о туре"
+Интересные панорамы по темам"
     >Главное, панорамы на 360°
  </a>
-  
- 
-<!------     visibility: hidden;
-      top:70px;    
-    left: 100px;
-            width: 500px;
-height: auto; --->
+
  <img src="gotoarh.jpg"   alt="карта"  align="middle" id="gotoarh"
  onmouseout="this.style.visibility='hidden'";
       style="position: fixed; 
-      top:70px;    
+      top:50px;    
       left: 100px;
       visibility: hidden;
       display: block;
       margin-left: auto;
     margin-right: auto;
     width: 50%;
-      margin: 4px; z-index: 2286;"
+      margin: 4px; z-index: 10000;
+      overflow: visible;       "
       title="&nbsp;&nbsp;&nbsp;Перейти на Официальный туристический сайт Администрации г. Архангельска  
     ->  Сайт www.gotoarkhangelsk.ru 
     Администрация ГО «Город Архангельск» © 2025. Р.Ф.,Архангельская обл., г. Архангельск.
@@ -282,43 +262,100 @@ height: auto; --->
      
  <img src="gotoarh-dost.jpg"   alt="карта"  align="middle" id="gotoarh_dost"
  onmouseout="this.style.visibility='hidden'";
- 
-      style="position: fixed; 
-      top:70px;    
+       style="position: fixed; 
+      top:50px;    
       left: 100px;
       visibility: hidden;
       display: block;
       margin-left: auto;
     margin-right: auto;
     width: 50%;
-      margin: 4px; z-index: 2286;"
+      margin: 4px; z-index: 10000;
+      overflow: visible;       "
       title="&nbsp;&nbsp;&nbsp;Перейти на Официальный туристический сайт Администрации г. Архангельска  
     ->  Сайт www.gotoarkhangelsk.ru 
     Администрация ГО «Город Архангельск» © 2025. Р.Ф.,Архангельская обл., г. Архангельск.
     ->  Сайт www.arhcity.ru - Официальный информационный интернет-портал г. Архангельска">
- 
  <!-------           ======================   --->
+ 
 
+<!-------             position: fixed; top: 0px; left: 0px      -------    margin-top: -20px;-------------------->	 
     
-    
-<!-------                 --------------------------->	
-  <iframe width="100%" allow="fullscreen"  height="620" 
-          style="
-          margin-top: -20px;
-          z-index: 10;" 
+<DIV>
+  <iframe width="100%" allow="fullscreen"  height="600px" 
           src="https://1panorama.ru/world/russia-1/arxangelskaya-oblast-173/arxangelsk-646/karta-sxema-virtualnogo-puteshestviya-v-arxangelskuyu-vokrug-marsh-panorama48825" 
-          title="текст" alt="текст3"  
-          id="pano1_templ"  
-   style="
-   position: fixed; top: 0px; left: 0px;  z-index: 2000; 
+       id="pano1_templ"  
+          loading="lazy"   
+          style="
+    z-index: 10; 
     border-left-width: 0px;
     border-top-width: 0px;
     border-right-width: 0px;
     bottom: 0px;
-    border-bottom-width: 0px;"      >
+    border-bottom-width: 0px;
+margin-top: -20px;  "   >
   </iframe>	
-<!-------                 --------------------------->	
+    <DIV>
+   <a id="Main1pano"  target="_blank" 
+     title="&nbsp;&nbsp;&nbsp;Перейти на  сайт проекта !1panorama" 
+	 	 onclick=  "Main1pano()"
+style=" 
+        
+	  
+      position: absolute; 
+         left: 9px; 
+         bottom:176px; 
 
+      height: 22px;
+      width: 120px;
+      z-index: 3001;
+      overflow: visible;
+      opacity:0.8;
+      cursor: pointer;
+      pointer-events: auto; 
+      margin: 2px; 
+      background: none;
+          background-color: #333333; 
+            border :none; 
+				padding-bottom: 4px;
+            ">
+       <img src="nlogo-a100.png"   alt="карта" ></a>
+   
+   <a id="AboutMy1pano" href="https://1panorama.ru/user/profile/index/id/2379" target="_blank" 
+     title="
+     &nbsp;&nbsp;&nbsp;Об авторе идеи большинства наземных панорам Архангельска и области
+     вы можете посмотреть на станице сайт проекта 1panorama.ru
+     &nbsp;Там же вы можете посмотреть мои интересные панорамы, начиная с 2010 года 
+     по городу, музеям, событиям. И просто красивые панорамы нашего Архангельского 
+     края и разных прочих мест России и мира." 
+style=" 
+   position: absolute;  
+   
+          left: 146px; 
+	  bottom:176px; 
+
+      height: 22px;
+      width: 120px;
+	  
+      z-index: 3001;
+      overflow: visible;
+      opacity:0.9;
+      cursor: pointer;
+      pointer-events: auto; 
+      margin: 2px; 
+      padding-left: 15px;
+      padding-right: 10px;
+      background: none;
+      background-color: #333333; 
+	padding-bottom: 4px;
+      border :none; 
+            ">
+       <img src="nlogo-a125+my.png"   alt="об авторе тура" ></a>
+  
+   </DIV> 
+    
+</DIV>
+<!-------                 --------------------------->	
  
 <a  style=" font-size:110%;  color : red; text-wrap-mode: wrap;font-style:italic;background-color: #ffffff; "
 href="https://yakov72.github.io/pano/tf.html?key=https://1panorama.ru/world/russia-1/arxangelskaya-oblast-173/arxangelsk-646/2024-08-12a-krasnaya-pristan-obzornaya-panorama-art-obekt-okno-v-arktiku-naberezhnaya-r-severnaya-dvina-panorama48525" 
@@ -405,7 +442,8 @@ title="Кликните по ссылке, что бы открыть полну
      </details>     <hr>  
 
       <details class="aa">   
-         <summary> <span class="aa"  style="color:FireBrick; font-style:normal; font-weight: bold;font-size:120%; 
+         <summary> <span class="aa"  
+         style="color:FireBrick; font-style:normal; font-weight: bold;font-size:120%; 
          border-radius: 5px;     
          border: 2px solid #f76707;
          background-color: #ddd;" > 

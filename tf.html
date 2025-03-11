@@ -58,6 +58,16 @@ else {
  document.getElementById("pano1_templ").src = value;} 
 });
  </script>
+ 
+ 
+<script type="text/javascript">     
+ function Main1pano() {
+document.getElementById("pano1_templ").src ='https://1panorama.ru';
+  alert('Вы нажали на кнопку!');
+
+ 
+} 
+ </script>
 
 </head>
 
@@ -301,7 +311,12 @@ height: auto; --->
       margin-left: auto;
     margin-right: auto;
     width: 50%;
-      margin: 4px; z-index: 2286;"
+      margin: 4px; z-index: 2286;
+      
+      
+      overflow: visible; 
+      
+      "
       title="&nbsp;&nbsp;&nbsp;Перейти на Официальный туристический сайт Администрации г. Архангельска  
     ->  Сайт www.gotoarkhangelsk.ru 
     Администрация ГО «Город Архангельск» © 2025. Р.Ф.,Архангельская обл., г. Архангельск.
@@ -318,13 +333,19 @@ height: auto; --->
       margin-left: auto;
     margin-right: auto;
     width: 50%;
-      margin: 4px; z-index: 2286;"
+      margin: 4px; z-index: 2286;
+      
+      overflow: visible; 
+      
+      
+      "
       title="&nbsp;&nbsp;&nbsp;Перейти на Официальный туристический сайт Администрации г. Архангельска  
     ->  Сайт www.gotoarkhangelsk.ru 
     Администрация ГО «Город Архангельск» © 2025. Р.Ф.,Архангельская обл., г. Архангельск.
     ->  Сайт www.arhcity.ru - Официальный информационный интернет-портал г. Архангельска">
  
  <!-------           ======================   --->
+ <div>
 <iframe id="pano1_templ" width="100%" allow="fullscreen"  height="100%" 
    style="position: fixed; top: 0px; left: 0px;  z-index: 2000; 
     border-left-width: 0px;
@@ -334,15 +355,13 @@ height: auto; --->
     border-bottom-width: 0px;"
   src=null    title="текст444" alt="текст444"  >
 </iframe>	
-   
- <!-------       конец второй     ======================   --->
-
-
-    <a href="https://1panorama.ru/" target="_blank" 
+ <a id="Main1pano"  target="_blank" 
      title="&nbsp;&nbsp;&nbsp;Перейти на  сайт проекта !1panorama" 
+	 	 onclick=  "Main1pano()"
 style=" 
-      position: fixed;
-      left: -3px; bottom:50px; 
+         position: fixed;
+	  
+      left: -3px; bottom:46px; 
 
       height: 22px;
       width: 120px;
@@ -355,10 +374,11 @@ style="
       background: none;
           background-color: #333333; 
             border :none; 
+				padding-bottom: 4px;
             ">
        <img src="nlogo-a100.png"   alt="карта" ></a>
    
-   <a href="https://1panorama.ru/user/profile/index/id/2379" target="_blank" 
+   <a id="AboutMy1pano" href="https://1panorama.ru/user/profile/index/id/2379" target="_blank" 
      title="
      &nbsp;&nbsp;&nbsp;Об авторе идеи большинства наземных панорам Архангельска и области
      вы можете посмотреть на станице сайт проекта 1panorama.ru
@@ -367,10 +387,12 @@ style="
      края и разных прочих мест России и мира." 
 style=" 
       position: fixed;
-      left: 110px; bottom:50px; 
+      left: 126px; 
+	  bottom:46px; 
 
       height: 22px;
       width: 120px;
+	  
       z-index: 3001;
       overflow: visible;
       opacity:0.9;
@@ -380,10 +402,16 @@ style="
       padding-left: 15px;
       padding-right: 10px;
       background: none;
-          background-color: #333333; 
-            border :none; 
+      background-color: #333333; 
+	padding-bottom: 4px;
+      border :none; 
             ">
-       <img src="nlogo-a125+my.png"   alt="карта" ></a>
+       <img src="nlogo-a125+my.png"   alt="об авторе тура" ></a>
+</div>   
+ <!-------       конец второй     ====="Main1pano()"=================   --->
+
+
+   
  
  
 
