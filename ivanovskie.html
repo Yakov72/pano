@@ -1,0 +1,87 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="ru">
+<head>
+
+<meta charset="UTF-8">       
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+<meta name="keywords" content="виртуальное путешествие, виртуальный тур, архангельск,вокруг марш, архангельская, область, панорама, фото, 360 панорамы,3d-панорама, сферические панорама,  заказать, пейзажный, интерьерный, музейный, фотограф, Чурбанов Яков"> 
+<meta property="og:locale" content="ru_RU" >
+<meta property="og:site_name" content="«В Архангельск(уЮ) вокруг марш!». ВИРТУАЛЬНЕ ПУТЕШЕСТВИЕ. Главная " >
+<meta property="og:type" content="site" >
+
+<meta property="og:title" content="«В Архангельск(уЮ) вокруг марш!». КАРТА-СХЕМА  ВИРТУАЛЬНОГО ПУТЕШЕСТВИЯ " >
+<meta property="og:description" content="« В Архангельск(уЮ) вокруг марш! ». Начало виртуального путешествия в Архангельск и Архангельскую область." >
+<meta property="og:url" content="https://yakov72.github.io/pano" >
+<meta property="og:image" content="https://yakov72.github.io/pano/ivanovskie.jpg" >
+<meta property="og:image:secure_url" content="https://yakov72.github.io/pano/ivanovskie.jpg" >
+<!-- 		/*<meta property="og:image:width" content="512" >
+		<meta property="og:image:height" content="512" />*/ -->
+<meta property="og:image:type" content = "image/jpg" >
+<!-- 		<meta property = "og:video" content = "https://www.mywebsite.com/video.avi" >-->
+<meta property="og:title" content="«В Архангельск(уЮ) вокруг марш!». КАРТА-СХЕМА  ВИРТУАЛЬНОГО ПУТЕШЕСТВИЯ " >
+
+<!--     место для CSS -->
+<link rel="stylesheet" type="text/css" href="./css/mypano.css" >
+<link rel="stylesheet" type="text/css" href="./css/my_rukopis_font.css" >
+<link rel="icon"  href="./favicon.png" >
+<title>«В Архангельск(уЮ) вокруг марш!» шаблон</title>
+    <style>
+        html, body {
+            height: 100%;
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: verdana, arial, sans-serif;
+            font-size: 12px;
+            color: #333;
+              overflow: hidden;
+        }
+        a {
+            color: #1e5da0;
+        }
+        a:hover {
+            color: #00366d;
+        }
+        </style>
+        
+        
+ <script type="text/javascript">         
+ document.addEventListener("DOMContentLoaded", (event) => {
+//"DOM fully loaded and parsed");
+let params = new URLSearchParams(document.location.search);
+let value = params.get('key'); // 'key' – это имя целевого параметра
+if (value !== null){    
+ document.getElementById("pano1_templ").src = value;}
+ //"https://1panorama.ru/world/russia-1/arxangelskaya-oblast-173/arxangelsk-646/arxangelsk-severnyj-morskoj-muzej-paratov-panorama20192";
+else {
+    value= 'https://yandex.ru/maps/-/CLTnzTNw';
+ document.getElementById("pano1_templ").src = value;} 
+});
+ </script>
+ 
+ 
+<script type="text/javascript">     
+ function Main1pano() {
+document.getElementById("pano1_templ").src ='https://1panorama.ru';
+  alert('Вы нажали на кнопку!');
+
+ 
+} 
+ </script>
+
+</head>
+
+<body>
+
+<!-- <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0.5;
+     overflow: hidden; user-select: none; transform-style: preserve-3d;z-index: 3017; color : green;">
+    -->
+<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/20/arkhangelsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Архангельск</a><a href="https://yandex.ru/maps/20/arkhangelsk/?l=stv%2Csta&ll=40.511201%2C64.572682&panorama%5Bdirection%5D=175.875113%2C-7.331613&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=40.511084%2C64.572689&panorama%5Bspan%5D=95.132690%2C60.000000&utm_medium=mapframe&utm_source=maps&z=21" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Архангельска с улицами и номерами домов — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?l=stv%2Csta&ll=40.511201%2C64.572682&panorama%5Bdirection%5D=175.875113%2C-7.331613&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=40.511084%2C64.572689&panorama%5Bspan%5D=95.132690%2C60.000000&utm_source=share&z=21" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+
+</body>
+
+
+</script> 
+</html>
+
+<!-------           tyle="margin-top: -60px; z-index: 10;    " --->
