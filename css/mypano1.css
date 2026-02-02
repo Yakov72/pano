@@ -1,0 +1,162 @@
+body {
+
+background: #f4f4f4 ;
+    font-family: Arial, sans-serif;
+/***************	font-weight: bold;----------------------*/
+ 
+/*	color: #005300;*/
+    font-size: 13px;
+    line-height: 18px;
+		font-weight: bold;
+		font-style:italic;
+    color: green; 
+
+	    margin-top: 3px;
+	
+} 
+	  hr {
+    margin-bottom: 3px;
+    margin-top: 3px;
+	}
+
+
+a {
+    text-decoration: underline;
+		text-decoration: none;
+	font-weight: bold;
+/*****	font-weight: normal;---*/
+	font-style: normal;
+         outline-style: none;
+
+		
+	padding-left: 6px;
+    padding-right: 6px;
+	
+	text-wrap-mode: nowrap;
+        
+        
+        
+        
+        
+}
+a:link {
+	/******************************    color: #1e5da0; ******************************/
+    color: BLUE;
+             border-radius: 35px;    
+             border-top-left-radius:0%;
+             border-right-color: #ffffff; 
+             border-top-color: #ffffff; 
+             border-bottom-right-radius:0%;
+     /*    border: 1px solid #f76707;***/
+     border: 4px groove #ffffff;
+         	/****     border: 5px groove #ffffff;**********    color: #ffffff; под ссылкой ******************************/
+/*         border-right-width:43;
+         border-left-width:43;   */
+    border-top-width: 2px;		 
+                background-color: #ffffff; 
+}
+a:visited {
+         border: 3px groove #ffffff;
+         background-color: #eeeeee; 
+    color: #1e5da0;
+}
+a:hover,
+a:active {
+    /*color: #00366d;
+    NAVI navi #000080!!  magenta !!
+    */
+
+		color: red;
+              /* text-decoration: underline;*/
+               
+               text-decoration-color: rgb(0, 0, 255);
+text-decoration-line: underline;
+text-decoration-skip-ink: none;
+text-decoration-style: wavy;
+ text-decoration-style: solid;
+text-decoration-color: #2e9aff;
+text-decoration-thickness:  3px;
+               
+               
+               
+}
+
+a:active {
+
+		color: red;
+}
+mb {
+ color:blue;   
+}
+
+/*********** */
+.aa {
+	color:red;
+	font-style: italic; 
+	font-weight: normal;
+	font-weight: bold;
+        font-size:100%; 
+	text-align: left;
+        color:FireBrick; 
+        font-style:normal; 
+        font-weight: bold;
+         font-size:100%; 
+         border-radius: 5px;     
+         border: 2px solid #f76707;
+         
+         background-color: #ddd;
+
+    padding-bottom: 2px;
+    padding-top: 2px;
+         
+cursor: pointer;
+
+	 
+}
+.aa A:link {	/******************************    color: #1e5da0; ******************************/
+        color:FireBrick; 
+         background-color: #ddd;
+         background-color: #fff;
+             font-size: 13px;
+}	
+.aa A:visited {
+
+	color: FireBrick; 
+        text-decoration: underline;
+        background-color: #eee;
+}    
+.aa A:hover,
+aa:active {
+    color: #00366d;
+	color: red;
+		    text-decoration: underline;
+                     text-decoration-style: solid;
+text-decoration-color: #2e9aff;
+text-decoration-thickness:  3px;
+}
+/*****  **********/ 
+
+
+
+
+
+
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.your-style {
+    font-family: 'Caveat';
+    font-weight: bold;
+    font-style: normal;
+    color : red; 
+    
+}
+/*#pano_ya_emb .map-circle-placemark__caption */
+
+
