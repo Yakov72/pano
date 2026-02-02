@@ -1,0 +1,526 @@
+$(document).ready(function () {
+    $('.inline-login').on('click', function(){
+        $.get($(this).attr('href'), function(data){
+            $.fancybox({'content' : $(data).find('#auth_page').html()});
+        });
+        return false;
+    });
+
+    $('.forum-block .subscribe a').on('click', function(){
+        var t = $(this);
+        $.get(t.attr('href'), function(data) {
+            t.text(data.linkText);
+            alert(data.message);
+        }, 'json');
+        return false;
+    });
+
+    var countriesDDlist = $('form .countriesDDlist');
+    var regionsDDlist = $('form .regionsDDlist');
+    var citiesDDlist = $('form .citiesDDlist');
+    if (countriesDDlist.length && regionsDDlist.length) {
+        countriesDDlist.on('change', function () {
+            $.ajax({
+                url:'/main/regionsListOpt/cid/' + $(this).attr('value'),
+                success:function (data) {
+                    regionsDDlist.html(data);
+                    $.ajax({
+                        url:'/main/citiesListOpt/rid/' + $(this).attr('value'),
+                        success:function (data) {
+                            citiesDDlist.html(data);
+                        }
+                    });
+//                    citiesDDlist.html('<option value="0">— — —</option>');
+                }
+            });
+        });
+        if (citiesDDlist.length) {
+            regionsDDlist.change(function () {
+                $.ajax({
+                    url:'/main/citiesListOpt/rid/' + $(this).attr('value'),
+                    success:function (data) {
+                        citiesDDlist.html(data);
+                    }
+                });
+            });
+        }
+    }
+
+    $('.checkboxlist input[data-root="1"]').each(function(){
+        var t = $(this);
+        if (t.prop('checked')) {
+            panoShowChilds(t.val());
+        }
+    }).change(function(){
+            var t = $(this);
+            if (t.prop('checked')) {
+                panoShowChilds(t.attr('value'));
+            } else {
+                $('.checkboxlist .child[data-parent="'+ t.attr('value') +'"] input:checkbox').removeAttr('checked');
+                panoHideChilds(t.attr('value'));
+            }
+        });
+
+    function panoShowChilds(parent_id) {
+        var container = $('.checkboxlist .child[data-parent="'+ parent_id +'"]');
+        if (container.length && container.html())
+            container.fadeIn();
+    }
+    function panoHideChilds(parent_id) {
+        $('.checkboxlist .child[data-parent="'+ parent_id +'"]').fadeOut();
+    }
+
+    $('#social-popup .close-btn').click(function(){
+        $('#social-popup').fadeOut();
+    });
+
+    /*$('#social-text .subscribe-btn').click(function(){
+        var form = $('#social-text form');
+        $.ajax({
+            url: form.attr('action'),
+            type: 'post',
+            data: form.serialize()
+        }).done(function(result) {
+                if (result == 'ok') {
+                    alert('Спасибо.\nМы сообщим Вам когда произойдет открытие регистрации.');
+                    $('#EmailCollector_email').attr('value', '');
+                }
+            });
+        return false;
+    });*/
+
+    if ($('#sidebar-city-map').length) {
+        function initCityMap() {
+            var mapBlock = $('#sidebar-city-map');
+            var latLng = new google.maps.LatLng(mapBlock.data('ltd'), mapBlock.data('lgt'));
+            var mapOptions = {
+                center: latLng,
+                zoom: mapBlock.data('zoom'),
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+            var map = new google.maps.Map(document.getElementById("sidebar-city-map"), mapOptions);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: latLng,
+                draggable: false
+            });
+        }
+        initCityMap();
+    }
+
+    var hideMap = (navigator.userAgent.toLowerCase().indexOf('firefox') > -1);
+
+    $('a[href="' + window.location.pathname + '"]').addClass('current');
+    var gmarkerWinterOff = new google.maps.MarkerImage('/themes/panorama/images/map-marker/winter_off.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerSpringOff = new google.maps.MarkerImage('/themes/panorama/images/map-marker/spring_off.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerSummerOff = new google.maps.MarkerImage('/themes/panorama/images/map-marker/summer_off.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerAutumnOff = new google.maps.MarkerImage('/themes/panorama/images/map-marker/autumn_off.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerWinterOn = new google.maps.MarkerImage('/themes/panorama/images/map-marker/winter_on.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerSpringOn = new google.maps.MarkerImage('/themes/panorama/images/map-marker/spring_on.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerSummerOn = new google.maps.MarkerImage('/themes/panorama/images/map-marker/summer_on.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+    var gmarkerAutumnOn = new google.maps.MarkerImage('/themes/panorama/images/map-marker/autumn_on.png',
+        new google.maps.Size(14,14),
+        new google.maps.Point(0,0),
+        new google.maps.Point(7,7));
+
+
+    $('.points-list a').click(function(){
+	goToCoords($(this).attr('href'));
+        return false;
+    });
+
+    function goToCoords(href) {
+	data = href.replace('#', '').split('_');
+        if (data.length > 1 ) {
+            atv = parseInt(data[0]);
+            ath = parseInt(data[1]);
+            var panoplayer = document.getElementById("panoplayer");
+            if (data.length == 3)
+                panoplayer.call("import_coords(" + ath + ", " + atv +  ", " + data[2] + ");");
+            else
+                panoplayer.call("import_coords(" + ath + ", " + atv + ");");
+        }
+
+    }
+
+    var randomPanoramaBlock = $('#random-panorama');
+    if (randomPanoramaBlock.length) {
+        var randomPlayer = createPanoViewer({swf:"/krpano/mainpage/player_mainpage.swf", id:"randomPlayer"});
+        randomPlayer.addVariable("xml", "/krpano/mainpage/player_mainpage.xml");
+        randomPlayer.addVariable("k1", randomPanoramaBlock.data('k1'));
+        randomPlayer.addVariable("namepano", randomPanoramaBlock.data('namepano'));
+        randomPlayer.addVariable("namelink", randomPanoramaBlock.data('namelink'));
+        if (randomPanoramaBlock.data('placepano').length) {
+            randomPlayer.addVariable("placepano", randomPanoramaBlock.data('placepano'));
+            randomPlayer.addVariable("placelink", randomPanoramaBlock.data('placelink'));
+        }
+        randomPlayer.embed("random-panorama");
+    }
+
+    var krpanoBlock = $('#krpano-block');
+    if (krpanoBlock.length) {
+        if ($(window).height() < 800) {
+            $('html, body').animate({
+                scrollTop: krpanoBlock.offset().top
+            }, 600);
+        }
+        var viewer = createPanoViewer({swf:"/krpano/panoplayer.swf", id:"panoplayer"});
+        //var viewer = createPanoViewer({swf:"/krpano/panoplayer.swf", id:"panoplayer", html5:"always"});
+        var ltd = $('#panorama_page').data('ltd');
+        var lgt = $('#panorama_page').data('lgt');
+        var nstart = $('#panorama_page').data('nstart');
+        var cookie_show_map = get_cookie('show_map');
+
+        if (window.location.hash) {
+            var data = window.location.hash;
+            data = data.replace('#', '').split('_');
+            if (data.length == 2) {
+                atv = parseInt(data[0]);
+                ath = parseInt(data[1]);
+            }
+        }
+
+        viewer.addVariable("xml", "/krpano/panoplayer.xml");
+        viewer.addVariable("k1", pf);
+        viewer.addVariable("ath0", ath);
+        viewer.addVariable("atv0", atv);
+
+        if (parseInt($('#panorama_page').data('air')) > 0) {
+            viewer.addVariable("type0", "air");
+        }
+        if (hplus) {
+            viewer.addVariable("hsplus", hplus);
+        }
+        if (iplus) {
+            viewer.addVariable("isplus", iplus);
+        }
+        if (hideMap) {
+            viewer.addVariable("map0", 2);
+        } else {
+            viewer.addVariable("map0", cookie_show_map);
+        }
+        if (nstart) {
+            viewer.addVariable("nstart", nstart);
+        }
+        if (!hideMap) {
+            viewer.addParam("wmode", "transparent");
+        }
+        viewer.embed("krpano-block");
+	    setTimeout(function(){goToCoords(window.location.hash);}, 2000);
+        if (!hideMap) {
+            krpanoBlock.append($('<div id="krpano-map"></div>'));
+//            map_state(2);
+        }
+
+        if (ltd && lgt && $('#krpano-map').length) {
+            function initkrpanomap() {
+                var latLng = new google.maps.LatLng(ltd, lgt);
+                var map;
+                var markers = [];
+                var markerIcon;
+                function initialize() {
+                    var mapOptions = {
+                        center:latLng,
+                        zoom:11,
+                        mapTypeId:google.maps.MapTypeId.HYBRID,
+                        disableDefaultUI:true
+                    };
+                    map = new google.maps.Map(document.getElementById("krpano-map"), mapOptions);
+
+                    for (var n in hotspots) {
+                        var hs = hotspots[n];
+                        if (hs['season'] == 1) {
+                            markerIcon = gmarkerWinterOff;
+                        } else
+                        if (hs['season'] == 2) {
+                            markerIcon = gmarkerSpringOff;
+                        } else
+                        if (hs['season'] == 3) {
+                            markerIcon = gmarkerSummerOff;
+                        } else
+                        if (hs['season'] == 4) {
+                            markerIcon = gmarkerAutumnOff;
+                        }
+                        markers[n] = new google.maps.Marker({
+                            position: new google.maps.LatLng(hs['ltd'], hs['lgt']),
+                            map: map,
+                            icon: markerIcon,
+                            title: hs['title'],
+                            url: hs['link'] });
+                        google.maps.event.addListener(markers[n], 'click', function() {
+                            window.location.href = this.url;
+                        });
+                    }
+                    if (season == 1) {
+                        markerIcon = gmarkerWinterOn;
+                    } else
+                    if (season == 2) {
+                        markerIcon = gmarkerSpringOn;
+                    } else
+                    if (season == 3) {
+                        markerIcon = gmarkerSummerOn;
+                    } else
+                    if (season == 4) {
+                        markerIcon = gmarkerAutumnOn;
+                    }
+
+                    var marker = new google.maps.Marker({
+                        map:map,
+                        position:latLng,
+                        icon: markerIcon,
+                        zIndex: 9999,
+                        draggable:false
+                    });
+                }
+
+                initialize();
+            }
+
+            initkrpanomap();
+            map_state(cookie_show_map);
+        } else {
+            $('#krpano-map').hide();
+        }
+    }
+    if ($('.geo-map').length) {
+        function initgeomap() {
+            var mapBlock = $('.geo-map');
+            var id = mapBlock.attr('id');
+            var markers = [];
+            var markerIcon;
+            var zoom = 5;
+            if (mapBlock.data('zoom')) {
+                zoom = mapBlock.data('zoom');
+            }
+
+            function initialize() {
+                var mapOptions = {
+                    center:new google.maps.LatLng(mapBlock.data('ltd'), mapBlock.data('lgt')),
+                    mapTypeId:google.maps.MapTypeId.HYBRID,
+                    zoom: zoom,
+                    mapTypeControl:false,
+                    streetViewControl:false,
+                    draggable:true
+                };
+                var map = new google.maps.Map(document.getElementById(id), mapOptions);
+
+                $.getJSON('/panorama/worldJson', function(data) {
+                    $.each(data, function(key, val) {
+                        if (val['season'] == 1) {
+                            markerIcon = gmarkerWinterOff;
+                        } else
+                        if (val['season'] == 2) {
+                            markerIcon = gmarkerSpringOff;
+                        } else
+                        if (val['season'] == 3) {
+                            markerIcon = gmarkerSummerOff;
+                        } else
+                        if (val['season'] == 4) {
+                            markerIcon = gmarkerAutumnOff;
+                        }
+                        markers[key] = new google.maps.Marker({
+                            position: new google.maps.LatLng(val['ltd'], val['lgt']),
+                            map: map,
+                            icon: markerIcon,
+                            title: val['title'],
+                            url: val['link'] });
+                        google.maps.event.addListener(markers[key], 'click', function(e) {
+                            //window.location.href = this.url;
+                            window.open(this.url, '_blank');
+                        });
+                    });
+                    var styles = [{
+                        url: '/storage/cluster-01.png',
+                        height: 30,
+                        width: 30
+                    }, {
+                        url: '/storage/cluster-02.png',
+                        height: 40,
+                        width: 40
+                    }, {
+                        url: '/storage/cluster-03.png',
+                        height: 50,
+                        width: 50
+                    }];
+                    var mcOptions = {gridSize: 30, maxZoom: 10, styles: styles};
+                    var markerCluster = new MarkerClusterer(map, markers, mcOptions);
+                });
+                google.maps.event.addListener(map, 'center_changed', function() {
+                    window.setTimeout(function() {
+                        var center = map.getCenter();
+                        //console.log(center);
+                        set_cookie('wm_lat', map.center.lat());
+                        set_cookie('wm_lon', map.center.lng());
+                    }, 500);
+                });
+                google.maps.event.addListener(map, 'zoom_changed', function() {
+                    window.setTimeout(function() {
+                        set_cookie('wm_z', map.zoom);
+                    }, 500);
+                });
+            }
+
+            initialize();
+        }
+
+        initgeomap();
+    }
+
+    // Голосование за панораму
+    $('#panorating-btn .btn').click(function () {
+        console.log('test');
+        if ($('#panorating-btn').hasClass('disabled')) {
+            return false;
+        }
+        var url = '/panorama/';
+        var btn = $(this);
+        var rating = $('#panorating-btn .rating');
+        if (btn.hasClass('up'))
+            url += 'ratingUp';
+        else
+            url += 'ratingDown';
+        url += '/id/' + panoramaId;
+        $.ajax({
+            url:url,
+            success:function (data) {
+                $('#panorating-btn').addClass('disabled');
+                rating.removeClass('red').removeClass('green');
+                data = parseInt(data);
+                if (data > 0) {
+                    rating.addClass('green');
+                    rating.text('+' + data);
+                } else if (data < 0) {
+                    rating.addClass('red');
+                    rating.text(data);
+                } else {
+                    rating.text(data);
+                }
+            }
+        });
+    });
+
+    $('.categorieslist .current').each(function(){
+        var category = $(this).parent('.category');
+        if (category.find('.sub .current').length) {
+            $(this).removeClass('current');
+        }
+    });
+
+    $(".fancybox").fancybox();
+
+    $('article img').each(function(){
+        var t = $(this);
+        if (t.hasClass('left') || t.hasClass('right') || t.hasClass('center')) {
+            t.wrap('<figure class="img-' + t.attr('class') + '"></figure>');
+            t.removeAttr('class');
+            t.after('<figcaption>' + t.attr('alt') + '</figcaption>');
+        }
+    });
+    $('article figure img').click(function(){
+        $.fancybox({
+            href: $(this).attr('src')
+        });
+    });
+});
+
+function map_state(state) {
+    document.cookie ='show_map=' + state + '; path=/';
+    if (state == 0) {
+//        $('#krpano-map').hide();
+        $('#krpano-map').css({top: -999});
+        $('#krpano-block embed').removeAttr('wmode');
+    } else if (state == 1) {
+//        $('#krpano-map').show();
+        $('#krpano-map').css({top: 0});
+        $('#krpano-block embed').removeAttr('wmode', 'transparent');
+    }
+}
+
+
+////////////////////////////////////////
+
+function set_cookie ( name, value, path, domain, secure )
+{
+    var cookie_string = name + "=" + encodeURIComponent ( value );
+    if ( path )
+        cookie_string += "; path=" + encodeURIComponent ( path );
+    if ( domain )
+        cookie_string += "; domain=" + encodeURIComponent ( domain );
+    if ( secure )
+        cookie_string += "; secure";
+    document.cookie = cookie_string;
+}
+
+function delete_cookie ( cookie_name )
+{
+    var cookie_date = new Date ( );
+    cookie_date.setTime ( cookie_date.getTime() - 1 );
+    document.cookie = cookie_name += "=; expires=" + cookie_date.toGMTString();
+}
+
+function get_cookie ( cookie_name )
+{
+    var results = document.cookie.match ( '(^|;) ?' + cookie_name + '=([^;]*)(;|$)' );
+
+    if ( results )
+        return ( decodeURIComponent( results[2] ) );
+    else
+        return null;
+}
+
+
+function set_delta_ath(ath) {
+    $("#Panorama_ath_delta").attr("value", ath);
+}
+
+
+function ping(cmd, data)
+{
+    if (!isJson(data)) {
+        data = {};
+    }
+    var result = {};
+    data.push({'cmd' : cmd});
+    $.ajax({
+        type: 'POST',
+        url: url,
+        data: data,
+        success: function(data) {
+            result = data;
+            return result;
+        },
+        dataType: 'json',
+        async: false
+    });
+    return result;
+}
+
+function isJson(str) {
+    try {
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
