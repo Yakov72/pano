@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.6" apprev="17950">
+  <panorama id="node1" hideabout="1">
+    <input levelingpitch="0" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" flat="1" width="20893" cylinder="1" levelbias="0.400" height="13703" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" width="20893" preload="0" height="13703"/>
+      <level predecode="0" width="10446" preload="0" height="6851"/>
+      <level predecode="0" width="5223" preload="0" height="3425"/>
+      <level predecode="0" width="2611" preload="0" height="1712"/>
+      <level predecode="0" width="1305" preload="0" height="856"/>
+      <level predecode="0" width="652" preload="0" height="428"/>
+      <level predecode="1" width="326" preload="1" height="214"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-8.46327" projection="4" fov="60.6986" pan="12.6055"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120" pan="360"/>
+    </view>
+    <userdata heading="0" info="" author="" nodeid="node1" copyright="" latitude="" customnodeid="" title="" comment="" longitude="" source="" description="" tags="!макро ВСЕ" datetime="31.03.2026 17:02"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label backgroundalpha="1" textcolor="0x000000" borderalpha="1" border="1" wordwrap="1" width="180" background="1" enabled="1" height="20" backgroundcolor="0xffffff" borderradius="1" bordercolor="0x000000" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" enabled="1" softedge="0" blendtime="1" zoomin="0" zoomout="0" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control invertwheel="0" contextprojections="1" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="1" simulatemass="1" invertcontrol="1" rubberband="0" lockedkeyboard="0" hideabout="1" lockedmouse="0">
+      <menulink text="Фотосъемка, обработка, представление в интернет - Яков Чурбанов" url="https://vk.com/yakov.churbanov"/>
+      <menulink text="Яков Чурбанов" url="https://yakov72.github.io/pano/"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata heading="0" info="" author="" nodeid="master" copyright="" latitude="" customnodeid="" title="" comment="" longitude="" source="" description="" tags="" datetime=""/>
+  </masternode>
+</tour>

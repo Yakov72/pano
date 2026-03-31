@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="17950" version="6.1.6">
+  <tour>
+    <start>node2</start>
+    <panorama>
+      <input>
+        <patch/>
+        <type>flat</type>
+        <filename>2026-03-31-0001пионлаг+ copy-вк.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>12.6055</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>-8.46327</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>60.6986</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2026-03-31T20:13:36</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2026-03-31T17:02:39</capturedatetime>
+        <datetime>31.03.2026 17:02</datetime>
+        <tags>!макро ВСЕ</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots/>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node1</id>
+    </panorama>
+  </tour>
+  <panorama>
+    <id>master</id>
+    <input>
+      <patch/>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+    </viewingparameter>
+    <userdata/>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <values>
+            <value id="css"/>
+            <value id="gginfo">true</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">true</value>
+            <value id="parseanchor">true</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate>
+          <enabled>0</enabled>
+        </autorotate>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr>
+          <enabled>0</enabled>
+        </webvr>
+        <tilesize>10000</tilesize>
+        <filename>output/pano.xml</filename>
+        <skinfile>C:/+сканер-макросъемка/mag6.ggsk</skinfile>
+        <windowwidth>1920</windowwidth>
+        <windowheight>1080</windowheight>
+        <skinconfiguration>
+          <value id="opt_autorotate">false</value>
+          <value id="opt_gyro">false</value>
+          <value id="opt_hotspot_preview">false</value>
+          <value id="opt_projection">false</value>
+        </skinconfiguration>
+        <skintablesconfiguration/>
+        <skincolorsconfiguration>
+          <value id="Button/Hotspot Foreground">4294967295</value>
+          <value id="Screen Tint">1677721600</value>
+          <value id="Scrollbar Background">1694498815</value>
+          <value id="Scrollbar Foreground">4294967295</value>
+          <value id="Thumbnail Active Border">4294967295</value>
+          <value id="Thumbnail Border">4291940817</value>
+          <value id="Tooltip Text Background">2181038080</value>
+          <value id="Tooltip Text Foreground">4294967295</value>
+        </skincolorsconfiguration>
+        <quality>95</quality>
+        <hideaboutbox>1</hideaboutbox>
+        <menulink>
+          <text>Фотосъемка, обработка, представление в интернет - Яков Чурбанов</text>
+          <url>https://vk.com/yakov.churbanov</url>
+        </menulink>
+        <menulink>
+          <text>Яков Чурбанов</text>
+          <url>https://yakov72.github.io/pano/</url>
+        </menulink>
+        <projectionscontext>1</projectionscontext>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
