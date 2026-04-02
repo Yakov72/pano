@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta property="og:image" content="preview.jpg">
+						<meta property="og:locale" content="ru_RU" >
+<meta property="og:site_name" content="Сайт Якова Чурбанова «В Архангельск(уЮ) вокруг марш!». Виртуальное путешествие в Архангельск и Архангельскую область. Панорамы Памятников, Музеев, Событий и просто Красивых мест" >
+<meta property="og:type" content="site" >
+<meta property="og:description" content="АФШ. 15 марта 1950г. Архангельская фельдшерская школа? 2я группа, 2й курс.  
+ Фото и анимация для веб - Яков Чурбанов. " >
+
+<meta property="og:url" content="https://yakov72.github.io/pano" >
+<!-- 	 	/*<meta property="og:image:width" content="512" >
+		<meta property="og:image:height" content="512" />*/ -->
+<meta property="og:image:type" content = "image/jpg" >
+<!-- 		<meta property = "og:video" content = "https://www.mywebsite.com/video.avi" >-->
+<meta property="og:title" content="АФШ. 15 марта 1950г. Архангельская фельдшерская школа? 2я группа, 2й курс. Фото и анимация для веб - Яков Чурбанов. ">
+			
+		<meta property="og:image" content="preview.jpg">
+		
+		
+		
+		
+		
+		<style type="text/css" title="Default">
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+		</style>	
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+		function parseParams(paramsString, params) {
+			paramsString = paramsString.substring(1);
+			var firstSeparatorPos = paramsString.indexOf(",");
+			if (firstSeparatorPos != -1) {
+				params.startNode = paramsString.slice(0, firstSeparatorPos);
+				var viewingParamsString = paramsString.slice(firstSeparatorPos + 1);
+				var viewingParams = viewingParamsString.split(",");
+				if (viewingParams.length >= 3) {
+					var startView = {};
+					startView["pan"] = viewingParams[0];
+					startView["tilt"] = viewingParams[1];
+					startView["fov"] = viewingParams[2];
+					if (viewingParams.length >= 4) {
+						startView["projection"] = viewingParams[3];
+					}
+					params.startView = startView;
+				}
+			} else {
+				params.startNode = paramsString;
+				params.startView = "";
+			}
+		}
+		var params = {};
+		parseParams(document.location.hash, params);
+		var startNode = params.startNode;
+		var startView = params.startView;
+		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+			window.onhashchange = function () {
+				parseParams(window.location.hash, params);
+				pano.openNext('{' + params.startNode + '}', params.startView);
+         	}
+	    } else {
+        	var lastHash = window.location.hash;
+        	window.setInterval(function () {
+	           	if (window.location.hash != lastHash) {
+   	        		lastHash = window.location.hash;
+					parseParams(window.location.hash, params);
+					pano.openNext('{' + params.startNode + '}', params.startView);
+        	   	}
+        	}, 100);
+		}
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.startNode = startNode;
+			pano.startView = startView;
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			panorama='<?xml version="1.0" encoding="UTF-8"?>';
+			panorama+='<tour apprev="17950" appversion="6.1.6" start="node3">';
+			panorama+='  <panorama id="node3">';
+			panorama+='    <input width="18704" leveltilesize="510" levelbiashidpi="1.000" flat="1" levelbias="0.400" cylinder="1" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="14996" levelingroll="0">';
+			panorama+='      <level width="18704" predecode="0" height="14996" preload="0"/>';
+			panorama+='      <level width="9352" predecode="0" height="7498" preload="0"/>';
+			panorama+='      <level width="4676" predecode="0" height="3749" preload="0"/>';
+			panorama+='      <level width="2338" predecode="0" height="1874" preload="0"/>';
+			panorama+='      <level width="1169" predecode="0" height="937" preload="0"/>';
+			panorama+='      <level width="584" predecode="0" height="468" preload="0"/>';
+			panorama+='      <level width="292" predecode="1" height="234" preload="1"/>';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start tilt="0" projection="4" pan="0" fov="100"/>';
+			panorama+='      <flyin tilt="-90" projection="9" pan="0" fov="170"/>';
+			panorama+='      <min fovpixel="2" tilt="-90" pan="0"/>';
+			panorama+='      <max fovstereographic="270" tilt="90" scaletofit="1" pan="360" fov="120" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata copyright="" info="" comment="" latitude="" heading="0" author="" tags="Pano2VR-Portable6-1-6" longitude="" nodeid="node3" datetime="02.04.2026 16:16" source="" customnodeid="" title="" description=""/>';
+			panorama+='    <hotspots width="180" wordwrap="1" height="20">';
+			panorama+='      <label width="180" background="1" bordercolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" backgroundalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" height="20" textcolor="0x000000" enabled="1"/>';
+			panorama+='      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" softedge="0" zoomfov="20" blendcolor="0x000000" zoomout="0" enabled="1" zoomin="0"/>';
+			panorama+='    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>';
+			panorama+='    <control rubberband="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" invertwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" simulatemass="1" lockedwheel="0" speedwheel="1" contextfullscreen="1" hideabout="0" lockedmouse="0">';
+			panorama+='      <menulink text="&#1084;&#1086;&#1103; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1095;&#1082;&#1072; &#1074; &#1042;&#1050;" url="https://vk.com/yakov.churbanov"/>';
+			panorama+='      <menulink text="&#1084;&#1086;&#1081; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090; &#1055;&#1040;&#1053;&#1054;&#1056;&#1040;&#1052;&#1067; &#1040;&#1056;&#1061;&#1040;&#1053;&#1043;&#1045;&#1051;&#1068;&#1057;&#1050;&#1040;" url="https://yakov72.github.io/pano/"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <masternode>';
+			panorama+='    <userdata copyright="" info="" comment="" latitude="" heading="0" author="" tags="" longitude="" nodeid="master" datetime="" source="" customnodeid="" title="" description=""/>';
+			panorama+='  </masternode>';
+			panorama+='</tour>';
+			panorama+='';
+			pano.readConfigString(panorama);
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+		<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s --> 
+		<div style="width:1px;height:1px;"></div>
+	</body>
+</html>
