@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="21010" start="node3" appversion="7.1.11" hassounds="0">
+  <panorama hideabout="1" id="node3">
+    <input levelingpitch="0" width="20205" height="16076" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" flat="1" leveltilesize="510" cylinder="1" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
+      <level height="16076" preload="0" predecode="0" width="20205"/>
+      <level height="8038" preload="0" predecode="0" width="10102"/>
+      <level height="4019" preload="0" predecode="0" width="5051"/>
+      <level height="2009" preload="0" predecode="0" width="2525"/>
+      <level height="1004" preload="0" predecode="0" width="1262"/>
+      <level height="502" preload="0" predecode="0" width="631"/>
+      <level height="251" preload="1" predecode="1" width="315"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" fov="120" tilt="90" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata nodeid="node3" latitude="" title="" heading="0" info="" tags="Pano2VR-Portable6-1-6|Pano2VR7-1-11" description="" comment="" copyright="" customnodeid="" longitude="" author="" source="" datetime="02.04.2026 16:16"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label textcolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" textalpha="1" border="1" background="1" enabled="1" bordercolor="0x000000"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition delay="none" type="crossdissolve" zoomspeed="2" zoomfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000" zoomafteroutfov="20" softedge="0" zoomout="0" zoomoutpause="1" blendtime="1" enabled="1"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control speedwheel="1" contextprojections="0" dblclickfullscreen="0" hideabout="1" lockedmouse="0" sensitivity="8" invertcontrol="1" contextfullscreen="1" invertwheel="0" simulatemass="1" zoomcentercursor="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" lockedkeyboard="0" contextvr="1">
+      <menulink url="https://vk.com/yakov.churbanov" text="моя страничка в ВК"/>
+      <menulink url="https://yakov72.github.io/pano/" text="мой проект ПАНОРАМЫ АРХАНГЕЛЬСКА"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata copyright="" title="" tags="" description="" comment="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
