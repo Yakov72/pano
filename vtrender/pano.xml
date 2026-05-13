@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node7">
+  <panorama id="node7" hideabout="1">
+    <input height="1024" levelingroll="0" leveltileurl="tiles/livingroom/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="1200" levelbias="0.400" levelbiashidpi="0.400" overlap="1" width="1024">
+      <level height="1024" preload="1" predecode="1" width="1024"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.98" pan="-7.25" fov="72.7"/>
+      <min tilt="-90" pan="0" fov="5"/>
+      <max tilt="90" pan="360" fov="120"/>
+    </view>
+    <userdata latitude="" info="" author="" tags="2" comment="" longitude="" title="Allrum" description="Allrum" copyright="" source="" datetime=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" height="20" borderalpha="1" border="1" enabled="1" background="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" width="180" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff"/>
+      <hotspot tilt="1.57" pan="138.77" id="Point02" target="9.42461/-0.38351/72.7" title="Sovrum" description="Sovrum" skinid="ht_node" url="{node9}"/>
+      <hotspot tilt="-0.63" pan="-143.1" id="Point01" target="-62.6882/4.00627/70" title="Badroom" description="" skinid="ht_node" url="{node8}"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" enabled="0" zoomin="0" zoomoutpause="1" zoomout="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <autorotate useanimation="0" speed="0.050" noderandom="0" delay="0.00" startloaded="0" returntohorizon="0.000" nodedelay="7.00"/>
+    <control invertwheel="0" simulatemass="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextfullscreen="1" hideabout="1" invertcontrol="1" speedwheel="1" sensitivity="8" lockedkeyboardzoom="0">
+      <menulink text="http://www.studio3d.se/" url="http://www.studio3d.se/"/>
+    </control>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input height="1024" levelingroll="0" leveltileurl="tiles/bedroom/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="1200" levelbias="0.400" levelbiashidpi="0.400" overlap="1" width="1024">
+      <level height="1024" preload="1" predecode="1" width="1024"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-90">
+      <start tilt="0" pan="0" fov="70"/>
+      <min tilt="-90" pan="0" fov="5"/>
+      <max tilt="90" pan="360" fov="120"/>
+    </view>
+    <userdata latitude="" info="" author="" tags="2" comment="" longitude="" title="Sovrum " description="Sovrum " copyright="" source="" datetime=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" height="20" borderalpha="1" border="1" enabled="1" background="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" width="180" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff"/>
+      <hotspot tilt="-3.38" pan="-127.42" id="Point02" target="-50.6142/-2.21344/70" title="Allroom" description="Allroom" skinid="ht_node" url="{node7}"/>
+      <hotspot tilt="-2.01" pan="178.49" id="Point01" target="-3.78346/0.332602/70" title="Badrum" description="Badrum" skinid="ht_node" url="{node8}"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" enabled="0" zoomin="0" zoomoutpause="1" zoomout="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <autorotate useanimation="0" speed="0.050" noderandom="0" delay="0.00" startloaded="0" returntohorizon="0.000" nodedelay="7.00"/>
+    <control invertwheel="0" simulatemass="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextfullscreen="1" hideabout="1" invertcontrol="1" speedwheel="1" sensitivity="8" lockedkeyboardzoom="0">
+      <menulink text="http://www.studio3d.se/" url="http://www.studio3d.se/"/>
+    </control>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <input height="1024" levelingroll="0" leveltileurl="tiles/bathroom/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" leveltilesize="1200" levelbias="0.400" levelbiashidpi="0.400" overlap="1" width="1024">
+      <level height="1024" preload="1" predecode="1" width="1024"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="90">
+      <start tilt="0" pan="0" fov="70"/>
+      <min tilt="-90" pan="0" fov="5"/>
+      <max tilt="90" pan="360" fov="120"/>
+    </view>
+    <userdata latitude="" info="" author="" tags="2" comment="" longitude="" title="Badrum" description="Badrum" copyright="" source="" datetime=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundcolor="0xffffff" textalpha="1" height="20" borderalpha="1" border="1" enabled="1" background="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" width="180" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff"/>
+      <hotspot tilt="-7.46" pan="151.43" id="Point01" target="70.9301/-1.70346/72.7" title="Allroom" description="Allroom" skinid="ht_node" url="{node7}"/>
+      <hotspot tilt="2.34" pan="178.38" id="Point02" target="-1.88005/3.12451/70" title="Sovroom" description="Sovroom" skinid="ht_node" url="{node9}"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" enabled="0" zoomin="0" zoomoutpause="1" zoomout="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomfov="20" softedge="0"/>
+    <autorotate useanimation="0" speed="0.050" noderandom="0" delay="0.00" startloaded="0" returntohorizon="0.000" nodedelay="7.00"/>
+    <control invertwheel="0" simulatemass="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextfullscreen="1" hideabout="1" invertcontrol="1" speedwheel="1" sensitivity="8" lockedkeyboardzoom="0">
+      <menulink text="http://www.studio3d.se/" url="http://www.studio3d.se/"/>
+    </control>
+  </panorama>
+</tour>
