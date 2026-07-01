@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title> &#1044;&#1086;&#1084; &#1053;&#1072;&#1088;&#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1058;&#1074;&#1086;&#1088;&#1095;&#1077;&#1089;&#1090;&#1074;&#1072;. &#1047;&#1088;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1081; &#1079;&#1072;&#1083;.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+		<meta name="keywords" content="виртуальное путешествие, виртуальный тур, архангельск,вокруг марш, архангельская, область, панорама, фото, 360 панорамы,3d-панорама, сферические панорама,  заказать, пейзажный, интерьерный, музейный, фотограф, Чурбанов Яков"> 
+
+<meta property="og:locale" content="ru_RU" >
+<meta property="og:site_name" content="Сайт Якова Чурбанова . Виртуальное путешествие в Архангельск и Архангельскую область. Панорамы Памятников, Музеев, Событий и просто Красивых мест" >
+<meta property="og:type" content="site" >
+<meta property="og:url" content="https://dnt-arh.ru/" >
+<meta property="og:image" content="https://yakov72.github.io/pano/dnt.jpg" >
+<meta property="og:image:type" content = "image/jpg" >
+<meta property="og:image:type" content = "image/jpg" >
+<meta property="og:title"       content="+360° Панорама. **** 2025-06-29 Дом Народного Творчества. Зрительный зал.">
+<meta property="og:description" content="+360° Панорама. **** 2025-06-29 Дом Народного Творчества. Зрительный зал.">
+
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta property="og:image" content="preview.jpg">
+		<style type="text/css" title="Default">
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+		</style>	
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<script src="webxr/three.min.js"></script>
+		<script src="webxr/webxr-polyfill.min.js"></script>
+		<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+		function parseParams(paramsString, params) {
+			paramsString = paramsString.substring(1);
+			var firstSeparatorPos = paramsString.indexOf(",");
+			if (firstSeparatorPos != -1) {
+				params.startNode = paramsString.slice(0, firstSeparatorPos);
+				var viewingParamsString = paramsString.slice(firstSeparatorPos + 1);
+				var viewingParams = viewingParamsString.split(",");
+				if (viewingParams.length >= 3) {
+					var startView = {};
+					startView["pan"] = viewingParams[0];
+					startView["tilt"] = viewingParams[1];
+					startView["fov"] = viewingParams[2];
+					if (viewingParams.length >= 4) {
+						startView["projection"] = viewingParams[3];
+					}
+					params.startView = startView;
+				}
+			} else {
+				params.startNode = paramsString;
+				params.startView = "";
+			}
+		}
+		var params = {};
+		parseParams(document.location.hash, params);
+		var startNode = params.startNode;
+		var startView = params.startView;
+		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+			window.onhashchange = function () {
+				parseParams(window.location.hash, params);
+				pano.openNext('{' + params.startNode + '}', params.startView);
+         	}
+	    } else {
+        	var lastHash = window.location.hash;
+        	window.setInterval(function () {
+	           	if (window.location.hash != lastHash) {
+   	        		lastHash = window.location.hash;
+					parseParams(window.location.hash, params);
+					pano.openNext('{' + params.startNode + '}', params.startView);
+        	   	}
+        	}, 100);
+		}
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.startNode = startNode;
+			pano.startView = startView;
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			panorama='<?xml version="1.0" encoding="UTF-8"?>';
+			panorama+='<panorama appversion="6.1.14" id="node1" apprev="18105" hideabout="1">';
+			panorama+='  <input width="6000" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="1.000" height="6000" levelingpitch="0" levelingroll="0">';
+			panorama+='    <level width="6000" preload="0" height="6000" predecode="0"/>';
+			panorama+='    <level width="3000" preload="0" height="3000" predecode="0"/>';
+			panorama+='    <level width="1500" preload="0" height="1500" predecode="0"/>';
+			panorama+='    <level width="750" preload="0" height="750" predecode="0"/>';
+			panorama+='    <level width="375" preload="1" height="375" predecode="1"/>';
+			panorama+='    <preview strip="1" color="0x808080"/>';
+			panorama+='  </input>';
+			panorama+='  <view pannorth="0" fovmode="0">';
+			panorama+='    <start pan="0" projection="4" fov="70" tilt="0"/>';
+			panorama+='    <flyin pan="0" projection="9" fov="170" tilt="-90"/>';
+			panorama+='    <min pan="0" tilt="-90" fovpixel="2"/>';
+			panorama+='    <max pan="360" fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90"/>';
+			panorama+='  </view>';
+			panorama+='  <userdata description="" nodeid="node1" copyright="" source="" comment="" longitude="" heading="0" customnodeid="" title="" info="" author="" tags="202606-&#1074;&#1086;&#1082;&#1079;&#1072;&#1083;" latitude="" datetime="29.06.2026 13:07"/>';
+			panorama+='  <hotspots width="180" wordwrap="1" height="20">';
+			panorama+='    <label width="180" border="1" textcolor="0x000000" wordwrap="1" textalpha="1" bordercolor="0x000000" enabled="1" background="1" backgroundcolor="0xffffff" height="20" borderradius="1" backgroundalpha="1" borderalpha="1"/>';
+			panorama+='    <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1"/>';
+			panorama+='  </hotspots>';
+			panorama+='  <media/>';
+			panorama+='  <transition blendcolor="0x000000" zoomout="0" zoomin="0" softedge="0" type="crossdissolve" enabled="1" zoomspeed="2" blendtime="1" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90"/>';
+			panorama+='  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>';
+			panorama+='  <control contextfullscreen="1" lockedmouse="0" lockedwheel="0" simulatemass="1" contextvr="1" contextprojections="0" dblclickfullscreen="0" rubberband="0" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" hideabout="1"/>';
+			panorama+='</panorama>';
+			panorama+='';
+			pano.readConfigString(panorama);
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+	</body>
+</html>
