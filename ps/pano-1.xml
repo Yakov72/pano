@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17950" start="node1" appversion="6.1.6">
+  <panorama id="node1" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0.734981" pan="-8.07217" fov="120" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-71.15" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 17:48" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node1" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node6}" tilt="-5.76" pan="-31.92" target="8.0/-11.1/81.2" id="Point01" description="В магазин" title="В магазин"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-11.1157" pan="7.98708" fov="81.2099" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-71.08" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 17:06" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node6" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node1}" tilt="-8.54" pan="-178.48" target="151.7/-0.6/120.0" id="Point01" description="На улицу" title="На улицу"/>
+      <hotspot skinid="hsu" url="{node5}" tilt="-7.36" pan="-357" target="-2.7/1.0/27.5" id="Point02" description="Дальше" title="Дальше"/>
+      <hotspot skinid="hsu" url="{node7}" tilt="-4.77" pan="-285.74" target="63.4/-0.0/120.0" id="Point03" description="Дальше" title="Дальше"/>
+      <hotspot skinid="hsu" url="{node2}" tilt="-7.95" pan="-59.87" target="-72.6/0.1/95.0" id="Point04" description="Дальше" title="Дальше"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="1.98248" pan="9.63537" fov="62.3261" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-71.25" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 16:48" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node5" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node6}" tilt="-6.3" pan="-175.03" target="-178.3/0.6/81.2" id="Point01" description="Дальше" title="Дальше"/>
+      <hotspot skinid="hsu" url="{node3}" tilt="-10.58" pan="-321.33" target="171.7/-5.2/96.6" id="Point02" description="Дальше" title="Дальше"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-0.75" pan="-158.77" fov="96.57" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-71.26" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 16:22" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node3" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node5}" tilt="-5.09" pan="-59.76" target="9.6/2.0/62.3" id="Point01" description="Дальше" title="Дальше"/>
+      <hotspot skinid="hsu" url="{node4}" tilt="-3.92" pan="-240.73" target="131.9/-1.2/110.9" id="Point02" description="Дальше" title="Дальше"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-0.928184" pan="-132.378" fov="94.8019" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-71.89" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 16:35" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node4" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node3}" tilt="-2.13" pan="-67.12" target="-70.1/-3.5/96.6" id="Point01" description="Дальше" title="Дальше"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" pan="0" fov="70" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-72.23" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 17:19" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node7" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node3}" tilt="-18.43" pan="-336.51" target="111.7/-14.5/89.3" id="Point01" description="Дальше" title="Дальше"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input overlap="1" levelbias="0.400" height="7000" leveltilesize="510" width="7000" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="7000" width="7000" preload="0" predecode="0"/>
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="1.08614" pan="-8.44653" fov="94.9539" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-72.02" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata latitude="" heading="0" info="" datetime="06.06.2024 17:37" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="node2" tags="Pano2VR-Portable6-1-6" title=""/>
+    <hotspots height="0" width="290" wordwrap="1">
+      <label height="0" borderalpha="1" width="290" backgroundalpha="0.627451" backgroundcolor="0x005500" textalpha="1" wordwrap="1" background="1" borderradius="10" textcolor="0xffffff" border="0" bordercolor="0x000000" enabled="1"/>
+      <polystyle borderalpha="0.627451" mode="1" backgroundalpha="0.0588235" backgroundcolor="0x0004ff" bordercolor="0x00007f" handcursor="1"/>
+      <hotspot skinid="hsu" url="{node5}" tilt="-4.48" pan="-336.14" target="25.6/2.4/62.3" id="Point01" description="Дальше" title="Дальше"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" softedge="0" blendtime="1" zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomspeed="2"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="0" speed="0.060" nodefilter="" nodedelay="11.00" returntohorizon="0.000" startloaded="1" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" simulatemass="1" contextprojections="1" rubberband="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="1" sensitivity="8" invertcontrol="1" lockedmouse="0" contextfullscreen="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata latitude="" heading="0" info="" datetime="" author="" copyright="" source="" longitude="" customnodeid="" comment="" description="" nodeid="master" tags="" title=""/>
+  </masternode>
+</tour>
