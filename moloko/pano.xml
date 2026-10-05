@@ -19,11 +19,11 @@
     <hotspots width="350" wordwrap="1" height="0">
       <label enabled="1" textalpha="1" textcolor="0xffffff" backgroundcolor="0x005500" width="350" border="0" backgroundalpha="0.627451" wordwrap="1" borderalpha="1" height="0" borderradius="10" background="1" bordercolor="0x000000"/>
       <polystyle backgroundcolor="0x00ff00" mode="1" handcursor="1" backgroundalpha="0.235294" borderalpha="0.627451" bordercolor="0xff0000"/>
-      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Чайник и чашки. серия &quot;Поморское чаепитие&quot;" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point-08" skinid="sd" tilt="-9.7" pan="-36.31"/>
-      <hotspot target="_blank" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" title="Аленький цветочек&#xa;латка&#xa;" description="Вода питьевая «Кнежица» не газ. 5л." id="Point-04" skinid="sd" tilt="-0.37" pan="-303.18"/>
-      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Молоко 2,5% 0,9 л «Белозорие»/" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point04" skinid="sd" tilt="2.74" pan="-4.76"/>
-      <hotspot target="_blank" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" title="Вьюнок&#xa;серия &quot;Мамин сад&quot;&#xa;" description="Молоко 2,5% 0,9 л «Белозорие»" id="Point-15" skinid="sd" tilt="-13.7" pan="-323.06"/>
-      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Разбитое сердце&#xa;серия &quot;Мамин сад&quot;&#xa;" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point-14" skinid="sd" tilt="-16" pan="-43.23"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Чайник и чашки. серия &quot;Поморское чаепитие&quot;" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point-08" skinid="sd1" tilt="-9.7" pan="-36.31"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" title="Аленький цветочек&#xa;латка&#xa;" description="Вода питьевая «Кнежица» не газ. 5л." id="Point-04" skinid="sd1" tilt="-0.37" pan="-303.18"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Молоко 2,5% 0,9 л «Белозорие»/" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point04" skinid="sd1" tilt="2.74" pan="-4.76"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" title="Вьюнок&#xa;серия &quot;Мамин сад&quot;&#xa;" description="Молоко 2,5% 0,9 л «Белозорие»" id="Point-15" skinid="sd1" tilt="-13.7" pan="-323.06"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Разбитое сердце&#xa;серия &quot;Мамин сад&quot;&#xa;" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point-14" skinid="sd1" tilt="-16" pan="-43.23"/>
       <polyhotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Молоко 2,5% 0,9 л «Белозорие»" description="Молоко 2,5% 0,9 л «Белозорие»" id="Poly-08">
         <polystring>-28.24/-18.52|-36.73/-20.21|-41.05/-21.33|-40.76/-22|-38.02/-24.29|-25.52/-19.75</polystring>
       </polyhotspot>
