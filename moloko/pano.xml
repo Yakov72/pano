@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node7" appversion="6.1.14" apprev="18105">
-  <panorama id="node7" hideabout="1">
-    <input height="5500" width="5500" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" overlap="1" levelbias="0.400">
-      <level predecode="0" height="5500" preload="0" width="5500"/>
-      <level predecode="0" height="2750" preload="0" width="2750"/>
-      <level predecode="0" height="1375" preload="0" width="1375"/>
-      <level predecode="0" height="687" preload="0" width="687"/>
-      <level predecode="1" height="343" preload="1" width="343"/>
+  <panorama hideabout="1" id="node7">
+    <input levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="5500" height="5500" leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="5500" predecode="0" preload="0" height="5500"/>
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
-      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
-      <min tilt="-73.8" fovpixel="2" pan="0"/>
-      <max fov="120" tilt="90" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270"/>
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-73.8" pan="0"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" title="" copyright="" longitude="" source="" comment="" latitude="" datetime="08.04.2024 12:48" description="" nodeid="node7" author="" heading="0" info="" tags="Pano2VR-Portable6-1-6"/>
-    <hotspots height="0" width="350" wordwrap="1">
-      <label backgroundcolor="0x005500" height="0" borderalpha="1" textcolor="0xffffff" width="350" border="0" borderradius="10" background="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="0.627451" enabled="1"/>
-      <polystyle backgroundcolor="0x00ff00" borderalpha="0.627451" mode="1" bordercolor="0xff0000" backgroundalpha="0.235294" handcursor="1"/>
-      <hotspot id="Point-08" title="Чайник и чашки. серия &quot;Поморское чаепитие&quot;" tilt="-9.7" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" target="_blank" pan="-36.31" description="Молоко 2,5% 0,9 л «Белозорие»/" skinid="sd1"/>
-      <hotspot id="Point-04" title="Аленький цветочек&#xa;латка&#xa;" tilt="-0.37" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" target="_blank" pan="-303.18" description="Вода питьевая «Кнежица» не газ. 5л." skinid="sd1"/>
-      <hotspot id="Point04" title="Молоко 2,5% 0,9 л «Белозорие»/" tilt="2.74" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" target="_blank" pan="-4.76" description="Молоко 2,5% 0,9 л «Белозорие»/" skinid="sd1"/>
-      <hotspot id="Point-15" title="Вьюнок&#xa;серия &quot;Мамин сад&quot;&#xa;" tilt="-13.7" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" target="_blank" pan="-323.06" description="Молоко 2,5% 0,9 л «Белозорие»" skinid="sd1"/>
-      <hotspot id="Point-14" title="Разбитое сердце&#xa;серия &quot;Мамин сад&quot;&#xa;" tilt="-16" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" target="_blank" pan="-43.23" description="Молоко 2,5% 0,9 л «Белозорие»/" skinid="sd1"/>
-      <polyhotspot id="Poly-08" title="Молоко 2,5% 0,9 л «Белозорие»" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" target="_blank" description="Молоко 2,5% 0,9 л «Белозорие»">
+    <userdata datetime="08.04.2024 12:48" author="" copyright="" nodeid="node7" title="" description="" latitude="" customnodeid="" info="" comment="" longitude="" heading="0" source="" tags="Pano2VR-Portable6-1-6"/>
+    <hotspots width="350" wordwrap="1" height="0">
+      <label enabled="1" textalpha="1" textcolor="0xffffff" backgroundcolor="0x005500" width="350" border="0" backgroundalpha="0.627451" wordwrap="1" borderalpha="1" height="0" borderradius="10" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundcolor="0x00ff00" mode="1" handcursor="1" backgroundalpha="0.235294" borderalpha="0.627451" bordercolor="0xff0000"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Чайник и чашки. серия &quot;Поморское чаепитие&quot;" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point-08" skinid="sd1" tilt="-9.7" pan="-36.31"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" title="Аленький цветочек&#xa;латка&#xa;" description="Вода питьевая «Кнежица» не газ. 5л." id="Point-04" skinid="sd1" tilt="-0.37" pan="-303.18"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Молоко 2,5% 0,9 л «Белозорие»/" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point04" skinid="sd1" tilt="2.74" pan="-4.76"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/voda-pitevaya-knezhicza-ne-gaz-5l/" title="Вьюнок&#xa;серия &quot;Мамин сад&quot;&#xa;" description="Молоко 2,5% 0,9 л «Белозорие»" id="Point-15" skinid="sd1" tilt="-13.7" pan="-323.06"/>
+      <hotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Разбитое сердце&#xa;серия &quot;Мамин сад&quot;&#xa;" description="Молоко 2,5% 0,9 л «Белозорие»/" id="Point-14" skinid="sd1" tilt="-16" pan="-43.23"/>
+      <polyhotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Молоко 2,5% 0,9 л «Белозорие»" description="Молоко 2,5% 0,9 л «Белозорие»" id="Poly-08">
         <polystring>-28.24/-18.52|-36.73/-20.21|-41.05/-21.33|-40.76/-22|-38.02/-24.29|-25.52/-19.75</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly-06" title="Вода минеральная «Куртяевская » Мягкий вкус 0,6 л&#xa;Вода минеральная «Куртяевская » Мягкий вкус 0,6 л" url="https://belozorie.ru/catalog/page/8/?orderby=date" target="_blank" description="&#xa;Вода минеральная «Куртяевская » Мягкий вкус 0,6 л">
+      <polyhotspot target="_blank" url="https://belozorie.ru/catalog/page/8/?orderby=date" title="Вода минеральная «Куртяевская » Мягкий вкус 0,6 л&#xa;Вода минеральная «Куртяевская » Мягкий вкус 0,6 л" description="&#xa;Вода минеральная «Куртяевская » Мягкий вкус 0,6 л" id="Poly-06">
         <polystring>-298.09/-0.44|-299.26/-0.76|-299.25/-0.77|-299.91/-1.66|-299.72/-6.52|-296.86/-6.34|-292.49/-5.74|-290.43/-3.95|-290.37/0.87|-296.01/0.46</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly01" title="Молоко 2,5% 1,5 л «Белозорие»" url="https://belozorie.ru/product/moloko-25-15-l-belozorie/" target="_blank" description="Бифидок 2,5% 450 г">
+      <polyhotspot target="_blank" url="https://belozorie.ru/product/moloko-25-15-l-belozorie/" title="Молоко 2,5% 1,5 л «Белозорие»" description="Бифидок 2,5% 450 г" id="Poly01">
         <polystring>-0.37/-5.15|-1.43/-3.74|-4.8/-3.52|-6.67/-4.5|-6.07/-8.09|-0.5/-7.98</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly-15" title="&lt;b>&lt;i>&lt;font size=&quot;4&quot; >Творог 5% 300 г «Белозорие»" url="https://belozorie.ru/product/tvorog-5-300-g-belozorie-kopirovat/" target="_blank" description="Молоко 2,5% 0,9 л «Белозорие»">
+      <polyhotspot target="_blank" url="https://belozorie.ru/product/tvorog-5-300-g-belozorie-kopirovat/" title="&lt;b>&lt;i>&lt;font size=&quot;4&quot; >Творог 5% 300 г «Белозорие»" description="Молоко 2,5% 0,9 л «Белозорие»" id="Poly-15">
         <polystring>-314.06/-15.92|-317.1/-15.92|-322.17/-17.44|-326.89/-17.5|-333.34/-18.8|-333.92/-21.69|-330.74/-24.13|-318.31/-21.9|-312.98/-20.98|-310.69/-20.55|-310.71/-16.57|-312.43/-15.71</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" title="Молоко 2,5% 0,9 л «Белозорие»/" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" target="_blank" description="Состав: молоко цельное, молоко обезжиренное, с использованием закваски, приготовленной на кефирных грибках и биомассы бифидобактерий. Пищевая ценность: белки 3 г, жиры 2,5 г, углеводы 4 г Энергетическая ценность: 50 ккал / 210 кДж">
+      <polyhotspot target="_blank" url="https://belozorie.ru/product/moloko-25-09-l-belozorie/" title="Молоко 2,5% 0,9 л «Белозорие»/" description="Состав: молоко цельное, молоко обезжиренное, с использованием закваски, приготовленной на кефирных грибках и биомассы бифидобактерий. Пищевая ценность: белки 3 г, жиры 2,5 г, углеводы 4 г Энергетическая ценность: 50 ккал / 210 кДж" id="Poly02">
         <polystring>-43.87/1.43|-49.82/1.37|-49.74/-2.88|-43.87/-2.62</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomoutpause="1" zoomafteroutfov="20" type="crossdissolve" blendtime="1" zoomfov="20" zoomafterinfov="90" softedge="0" zoomin="0" zoomspeed="2" zoomout="0" enabled="1"/>
-    <soundstransition crossfade="0" enabled="1" transitiontime="2"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" hideabout="1" invertwheel="0" contextprojections="1" sensitivity="8" contextfullscreen="1" contextvr="1" simulatemass="1" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" lockedwheel="0" lockedmouse="0">
-      <menulink text="Создание тура- Яков Чурбанов" url="https://churbanov.net/"/>
+    <transition enabled="1" zoomout="0" zoomfov="20" zoomin="0" softedge="0" blendtime="1" zoomafterinfov="90" zoomoutpause="1" zoomspeed="2" type="crossdissolve" zoomafteroutfov="20" blendcolor="0x000000"/>
+    <soundstransition enabled="1" crossfade="0" transitiontime="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedwheel="0" invertwheel="0" rubberband="0" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" hideabout="1" speedwheel="1" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedkeyboard="0" simulatemass="1" contextprojections="1" contextvr="1">
+      <menulink url="https://churbanov.net/" text="Создание тура- Яков Чурбанов"/>
     </control>
   </panorama>
   <masternode>
-    <userdata customnodeid="" title="" copyright="" longitude="" source="" comment="" latitude="" datetime="" description="" nodeid="master" author="" heading="0" info="" tags=""/>
+    <userdata datetime="" author="" copyright="" nodeid="master" title="" description="" latitude="" customnodeid="" info="" comment="" longitude="" heading="0" source="" tags=""/>
   </masternode>
 </tour>
