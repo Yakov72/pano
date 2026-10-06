@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node22" appversion="6.1.6" apprev="17950">
+  <panorama id="node22" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/16=IMG_20230722_150019_4727109 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="55.6819" fov="58.9933" projection="4" tilt="-0.971275"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476104" heading="0" tags="vt" source="" longitude="40.472354" title="Фестиваль живой истории &quot;ПЕРЕКРЕСТКИ СЕВЕРА&quot;, КСК &quot;Кантри Клаб&quot;" author="" comment="" nodeid="node22" datetime="" info="" copyright="" description="Вход в КСК &quot;Кантри Клаб&quot;"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="55.24" id="Point01" skinid="hsu" target="80.6085/4.87123/70" title="" url="{node20}" tilt="-2.26" description="Игровая зона"/>
+      <hotspot pan="173.66" id="Point02" skinid="hsu" distance="197.103" target="" title="" url="{node28}" tilt="1.68" description="Парковка КСК"/>
+      <hotspot pan="22.38" id="Point03" skinid="hsu" target="13.1/-14.7/98.3" title="" url="{node19}" tilt="-0.48" description="Мастер класс, глина"/>
+      <hotspot pan="13.19" id="Point04" skinid="hsu" distance="107.51" target="118.9/-2.9/70.0" title="" url="{node23}" tilt="-0.45" description="Битва рыцарей , Сцена фестиваля"/>
+      <hotspot pan="34.45" id="Point05" skinid="hsu" target="5.86147/-18.6704/90.8731" title="" url="{node19}" tilt="-1.09" description="Мастер класс, глина"/>
+      <hotspot pan="63.29" id="Point06" skinid="hsu" distance="63.6188" target="-6.18902/-2.15301/70" title="" url="{node21}" tilt="0.1" description="Катание на лошадях"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/14=IMG_20230722_150103_4727125 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="" heading="0" tags="vt" source="" longitude="" title="" author="" comment="" nodeid="node20" datetime="" info="" copyright="" description="Игровая зона"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-113.89" id="Point01" skinid="hsu" target="26.6/-1.4/98.3" title="" url="{node22}" tilt="-2.03" description="Вход в КСК &quot;Кантри Клаб&quot;"/>
+      <hotspot pan="11.87" id="Point02" skinid="hsu" target="-0.103927/-12.1454/70" title="" url="{node19}" tilt="-0.55" description="Мастер класс, глина"/>
+      <hotspot pan="81.64" id="Point03" skinid="hsu" target="-5.9035/0.0853246/70" title="" url="{node21}" tilt="0.64" description="Катание на лошадях"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/15-IMG_20230722_150206_4727156 Panorama_pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476497" heading="0" tags="vt" source="" longitude="40.473319" title="" author="" comment="" nodeid="node21" datetime="" info="" copyright="" description="Катание на лошадях"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="179.84" id="Point01" skinid="hsu" target="-120.099/0.740477/70" title="" url="{node20}" tilt="0.42" description="Игровая зона"/>
+      <hotspot pan="-130.72" id="Point02" skinid="hsu" target="-10.066/-8.901/70" title="" url="{node19}" tilt="-0.41" description="Мастер класс, глина"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/13=IMG_20230722_150359_4727171 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="15.2073" fov="120" projection="4" tilt="-11.3505"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="" heading="0" tags="vt" source="" longitude="" title="" author="" comment="" nodeid="node19" datetime="" info="" copyright="" description="Мастер класс, глина"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="166.28" id="Point01" skinid="hsu" target="174.847/-2.24059/70" title="" url="{node20}" tilt="0.27" description="Игровая зона"/>
+      <hotspot pan="75.39" id="Point02" skinid="hsu" target="6.4/-30.7/86.8" title="" url="{node12}" tilt="-0.52" description="Торговые ряды"/>
+      <hotspot pan="-1.06" id="Point03" skinid="hsu" target="-3.20289/-5.16621/70" title="" url="{node23}" tilt="-7.15" description="Битва рыцарей"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/05-IMG_20230722_152504_4727234/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="350">
+      <start pan="50.6566" fov="70" projection="4" tilt="-41.0765"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476388" heading="350" tags="vt" source="" longitude="40.474017" title="" author="" comment="" nodeid="node11" datetime="2023:07:24 08:36:58" info="" copyright="" description="Торговые ряды"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="141.2" id="Point01" skinid="hsu" distance="7.08594" target="28.461/-33.4169/90.8731" title="" url="{node12}" tilt="-5.4" description="Торговые ряды"/>
+      <hotspot pan="-169.46" id="Point02" skinid="hsu" distance="35.5419" target="-14.683/-11.8069/70" title="" url="{node23}" tilt="3.37" description="Битва рыцарей"/>
+      <hotspot pan="-73.01" id="Point03" skinid="hsu" distance="24.6439" target="69.1137/-21.0407/75" title="" url="{node10}" tilt="0.47" description="Театрализованное представление"/>
+      <hotspot pan="-136.01" id="Point04" skinid="hsu" distance="47.832" target="-10.1287/-11.0403/70" title="" url="{node24}" tilt="2.28" description="Сцена фестиваля"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/07-IMG_20230722_152915_4727265 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="35.1211" fov="70" projection="4" tilt="-32.3544"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.487010" heading="0" tags="vt" source="" longitude="40.478725" title="" author="" comment="" nodeid="node13" datetime="" info="" copyright="" description="Театрализованное представление"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="49.48" id="Point01" skinid="hsu" distance="1202.45" target="10.4864/-38.7979/70" title="" url="{node11}" tilt="-3.29" description="Торговые ряды"/>
+      <hotspot pan="-47.13" id="Point02" skinid="hsu" distance="1192.49" target="8.35873/-5.27764/75" title="" url="{node10}" tilt="-3.27" description="Торговые ряды"/>
+      <hotspot pan="-224.03" id="Point03" skinid="hsu" distance="1248.37" target="145.0/-2.2/70.0" title="" url="{node24}" tilt="-0.31" description="Сцена фестиваля"/>
+      <hotspot pan="-263.64" id="Point04" skinid="hsu" distance="1219.87" target="167.2/-9.7/70.0" title="" url="{node23}" tilt="-1.46" description="Битва рыцарей"/>
+      <hotspot pan="-112.56" id="Point05" skinid="hsu" distance="1205.72" target="-13.0/-45.5/83.7" title="" url="{node29}" tilt="-1.79" description="Реконструкторы ,викинги"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/04-IMG_20230722_153016_4727281-pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="80">
+      <start pan="121.991" fov="70" projection="4" tilt="-24.6651"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476440" heading="80" tags="vt" source="" longitude="40.474517" title="" author="" comment="" nodeid="node10" datetime="22.07.2023 15:30" info="" copyright="" description="Театрализованное представление"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="129.79" id="Point01" skinid="hsu" distance="1192.49" target="38.3997/-8.93533/83.6522" title="" url="{node13}" tilt="-3.98" description="Театрализованное представление"/>
+      <hotspot pan="162.72" id="Point02" skinid="hsu" distance="56.7101" target="-7.67961/-9.87319/70" title="" url="{node24}" tilt="-1.36" description="Сцена фестиваля"/>
+      <hotspot pan="104.35" id="Point03" skinid="hsu" distance="24.6439" target="43.1/-41.1/75.0" title="" url="{node11}" tilt="-3.9" description="Торговые ряды"/>
+      <hotspot pan="-15.03" id="Point04" skinid="hsu" distance="7.9679" target="-58.6/-43.4/98.3" title="" url="{node14}" tilt="-6.51" description="Торговые ряды"/>
+      <hotspot pan="-109.79" id="Point05" skinid="hsu" distance="34.3725" target="-11.6098/-49.2278/90.8731" title="" url="{node29}" tilt="-3.15" description="Реконструкторы ,викинги"/>
+      <hotspot pan="-59.98" id="Point06" skinid="ht_node" distance="45.2332" target="-13.6/-19.3/70.0" title="" url="{node15}" tilt="0.76" description="Зона отдыха"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/08-IMG_20230722_154002_4727359 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476505" heading="0" tags="vt" source="" longitude="40.474587" title="" author="" comment="" nodeid="node14" datetime="" info="" copyright="" description="Торговые ряды"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="94.93" id="Point01" skinid="hsu" distance="7.9679" target="111.393/-17.3778/75" title="" url="{node10}" tilt="-1.06" description="Театрализованное представление"/>
+      <hotspot pan="-166.18" id="Point02" skinid="hsu" distance="39.6336" target="-23.1131/-2.12711/70" title="" url="{node15}" tilt="0.89" description="Зона отдыха"/>
+      <hotspot pan="74.89" id="Point03" skinid="hsu" distance="1184.8" target="30.3085/-11.8353/70" title="" url="{node13}" tilt="-0.24" description="Театрализованное представление"/>
+      <hotspot pan="156.69" id="Point04" skinid="hsu" distance="36.1799" target="-8.91095/-48.1313/90.8731" title="" url="{node29}" tilt="0.11" description="Реконструкторы ,викинги"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node29" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/23-IMG_20230722_173039_4727796 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476278" heading="0" tags="vt" source="" longitude="40.475128" title="" author="" comment="" nodeid="node29" datetime="2023:07:24 18:18:15" info="" copyright="" description="Реконструкторы ,викинги"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-81.72" id="Point01" skinid="hsu" distance="14.3862" target="-18.766/-55.5517/58.402" title="" url="{node27}" tilt="0.62" description="Реконструкторы 14-15в. Зап Европа"/>
+      <hotspot pan="-163.84" id="Point02" skinid="hsu" distance="59.9726" target="-31.6286/-4.09948/70" title="" url="{node24}" tilt="-0.61" description="Сцена фестиваля"/>
+      <hotspot pan="169.24" id="Point03" skinid="hsu" distance="27.7738" target="-10.6033/-12.91/70" title="" url="{node23}" tilt="-0.75" description="Битва рыцарей"/>
+      <hotspot pan="-220.54" id="Point04" skinid="hsu" distance="34.3725" target="105.9/-23.1/70.0" title="" url="{node10}" tilt="-1.96" description="Театрализованное представление"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node27" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/21-IMG_20230722_172222_4727765 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476236" heading="0" tags="vt" source="" longitude="40.474844" title="" author="" comment="" nodeid="node27" datetime="" info="" copyright="" description="Реконструкторы 14-15в. Зап Европа"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="126.49" id="Point02" skinid="hsu" distance="27.5684" target="98.5/-27.9/99.6" title="" url="{node10}" tilt="-0.13" description="Театрализованное представление"/>
+      <hotspot pan="181.17" id="Point03" skinid="hsu" distance="46.4237" target="-58.489/2.87962/70" title="" url="{node24}" tilt="0.83" description="Сцена фестиваля"/>
+      <hotspot pan="-80.18" id="Point04" skinid="hsu" distance="66.2327" target="7.41642/-19.0578/98.2417" title="" url="{node9}" tilt="-1.93" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-68.33" id="Point05" skinid="hsu" distance="71.0554" target="0.845776/-32.0214/65.1424" title="" url="{node7}" tilt="-1.72" description="Реконструкторы , первая мировая"/>
+      <hotspot pan="-203.12" id="Point01" skinid="hsu" distance="13.4262" target="150.9/-7.3/70.0" title="" url="{node23}" tilt="0.98" description="Битва рыцарей"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/12=IMG_20230722_171235_4727703 Panorama (1)/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476201" heading="0" tags="vt" source="" longitude="40.475945" title="" author="" comment="" nodeid="node18" datetime="" info="" copyright="" description="Современное стрелковое оружие"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="145.68" id="Point01" skinid="hsu" distance="22.1427" target="-161.3/-31.9/67.1" title="" url="{node7}" tilt="-3.34" description="Реконструкторы , первая мировая"/>
+      <hotspot pan="-26.59" id="Point02" skinid="hsu" distance="52.8948" target="119.497/-3.95728/44.0685" title="" url="{node27}" tilt="-4.35" description="Реконструкторы 14-15в. Зап Европа"/>
+      <hotspot pan="-254.78" id="Point03" skinid="hsu" distance="22.8866" target="46.5/-32.9/76.7" title="" url="{node9}" tilt="-3" description="Реконструкторы , ВОВ"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node25" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/19-IMG_20230722_161215_4727500 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476162" heading="0" tags="vt" source="" longitude="40.476480" title="" author="" comment="" nodeid="node25" datetime="2023:07:24 16:19:50" info="" copyright="" description="Реконструкторы ВОВ"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="173.02" id="Point01" skinid="hsu" distance="30.6166" target="-141.605/-2.87315/70" title="" url="{node17}" tilt="0.64" description="Зона отдыха"/>
+      <hotspot pan="-49.15" id="Point02" skinid="hsu" distance="15.2766" target="-154.4/-33.8/71.5" title="" url="{node7}" tilt="-4.11" description="Реконструкторы , первая мировая"/>
+      <hotspot pan="-118.87" id="Point03" skinid="hsu" distance="25.9974" target="-18.3778/-61.3434/70.5819" title="" url="{node18}" tilt="-0.94" description="Современное стрелковое оружие"/>
+      <hotspot pan="-101.96" id="Point04" skinid="hsu" distance="115.424" target="" title="" url="{node24}" tilt="-1.59" description="Сцена фестиваля"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/01=IMG_20230722_164702_4727609 Panorama-pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-126.649" fov="53.5423" projection="4" tilt="-25.7343"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476059" heading="0" tags="VT|vt" source="" longitude="40.476269" title="01" author="" comment="" nodeid="node7" datetime="22.07.2023 16:47" info="" copyright="" description="Реконструкторы , первая мировая"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="104.79" id="Point01" skinid="hsu" distance="15.2766" target="11.5947/-44.5258/70" title="" url="{node25}" tilt="-8.59" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-175.22" id="Point02" skinid="hsu" distance="22.1427" target="-68.9/-65.6/84.0" title="" url="{node18}" tilt="-2.38" description="Современное стрелковое оружие"/>
+      <hotspot pan="-129.27" id="Point03" skinid="hsu" distance="4.71944" target="65.6/-31.1/47.5" title="" url="{node8}" tilt="-6.8" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-109.49" id="Point04" skinid="hsu" distance="8.8668" target="7.5/-29.2/70.0" title="" url="{node9}" tilt="-2.18" description="Реконструкторы , ВОВ"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/02=IMG_20230722_165431_472762-pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="80">
+      <start pan="-139.263" fov="53.5423" projection="4" tilt="-19.0271"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476032" heading="80" tags="vt" source="" longitude="40.476193" title="" author="" comment="" nodeid="node8" datetime="22.07.2023 16:54" info="" copyright="" description="Реконструкторы , ВОВ"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="239.48" id="Point01" skinid="hsu" distance="22.2334" target="-9.4/-46.1/48.6" title="20-IMG_20230722_162505_4727546 Panorama" url="{node18}" tilt="-0.07" description="Современное стрелковое оружие"/>
+      <hotspot pan="186.65" id="Point02" skinid="hsu" distance="40.6459" target="135.1/-6.0/70.0" title="24=IMG_20230722_180146_4727828 Panorama" url="{node17}" tilt="-0.33" description="Зона отдыха"/>
+      <hotspot pan="-29.43" id="Point03" skinid="hsu" distance="4.15125" target="32.0369/-31.748/70" title="" url="{node9}" tilt="-8.64" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="166.12" id="Point04" skinid="hsu" distance="4.71944" target="-164.2/-42.6/70.7" title="" url="{node7}" tilt="-9.83" description="Реконструкторы , первая мировая"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/03-IMG_20230722_165820_4727671-pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="81.2891" fov="70" projection="4" tilt="-27.0445"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476010" heading="0" tags="vt" source="" longitude="40.476123" title="" author="" comment="" nodeid="node9" datetime="22.07.2023 16:58" info="" copyright="" description="Реконструкторы , ВОВ"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="94.02" id="Point01" skinid="hsu" distance="4.15125" target="166.2/-16.6/49.3" title="" url="{node8}" tilt="-6.52" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-32.88" id="Point02" skinid="hsu" distance="3.08255" target="130.669/-40.168/58.5162" title="" url="{node26}" tilt="-26.26" description=""/>
+      <hotspot pan="-109.01" id="Point03" skinid="hsu" distance="53.5211" target="77.4/-15.2/83.7" title="" url="{node30}" tilt="-0.51" description="После реконструкции боя"/>
+      <hotspot pan="-201.49" id="Point04" skinid="hsu" distance="22.8866" target="-123.4/-54.3/70.0" title="" url="{node18}" tilt="-1.55" description="Современное стрелковое оружие"/>
+      <hotspot pan="-144.53" id="Point05" skinid="hsu" distance="96.2736" target="-75.5/-8.0/70.0" title="" url="{node24}" tilt="0.02" description="Сцена фестиваля"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node26" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/20-IMG_20230722_162505_4727546 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.475989" heading="0" tags="vt" source="" longitude="40.476165" title="" author="" comment="" nodeid="node26" datetime="" info="" copyright="" description="Реконструкторы ВОВ"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="35.64" id="Point01" skinid="hsu" distance="3.08255" target="39.6/-22.1/77.5" title="" url="{node9}" tilt="-16.93" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-224.02" id="Point02" skinid="hsu" distance="54.2497" target="27.7/-19.4/58.2" title="" url="{node30}" tilt="-0.92" description="После реконструкции боя"/>
+      <hotspot pan="-256.62" id="Point03" skinid="hsu" distance="98.1782" target="38.7/-11.4/70.0" title="" url="{node24}" tilt="0.08" description=""/>
+      <hotspot pan="-7.25" id="Point04" skinid="hsu" distance="4.96602" target="172.0/-20.6/53.5" title="" url="{node8}" tilt="-6.77" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-312.42" id="Point05" skinid="hsu" distance="25.8226" target="-71.0/-29.8/90.9" title="" url="{node18}" tilt="-2.7" description="Современное стрелковое оружие"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node30" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/24=IMG_20230722_180146_4727828 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.475779" heading="0" tags="vt" source="" longitude="40.475143" title="" author="" comment="" nodeid="node30" datetime="2023:07:24 19:09:04" info="" copyright="" description="После реконструкции боя"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="173.83" id="Point01" skinid="hsu" distance="53.5211" target="79.498/-26.8885/70" title="" url="{node9}" tilt="-1.89" description="Реконструкторы , ВОВ"/>
+      <hotspot pan="-71.84" id="Point02" skinid="hsu" distance="53.1191" target="-136.673/-3.44393/70" title="" url="{node24}" tilt="-0.24" description="Сцена фестиваля"/>
+      <hotspot pan="-157.94" id="Point03" skinid="hsu" distance="60.6502" target="3.7/-37.8/70.0" title="" url="{node18}" tilt="-0.98" description=""/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/06-IMG_20230722_152815_4727250 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="75.102" fov="70" projection="4" tilt="-33.2654"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476395" heading="0" tags="vt" source="" longitude="40.473870" title="" author="" comment="" nodeid="node12" datetime="" info="" copyright="" description="Торговые ряды"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="110.42" id="Point01" skinid="hsu" distance="41.6568" target="-37.2038/-30.2721/90.8731" title="" url="{node23}" tilt="-0.38" description="Битва рыцарей"/>
+      <hotspot pan="-135.64" id="Point02" skinid="hsu" distance="7.08594" target="21.8885/-20.4543/75" title="" url="{node11}" tilt="-4.97" description="Торговые ряды"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node24" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/18=IMG_20230722_152255_4727218 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.475960" heading="0" tags="vt" source="" longitude="40.474117" title="" author="" comment="" nodeid="node24" datetime="" info="" copyright="" description="Сцена фестиваля"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="46.79" id="Point01" skinid="hsu" distance="53.1191" target="79.2536/-20.5478/84.3842" title="" url="{node30}" tilt="0.15" description="После реконструкции боя"/>
+      <hotspot pan="82.34" id="Point02" skinid="hsu" distance="103.694" target="-163.333/-37.7582/58.1604" title="16=IMG_20230722_150019_4727109 Panorama" url="{node7}" tilt="0.81" description="Реконструкторы , первая мировая"/>
+      <hotspot pan="-118.7" id="Point03" skinid="hsu" distance="33.7571" target="10.3779/-11.9351/70" title="" url="{node23}" tilt="-0.67" description="Битва рыцарей"/>
+      <hotspot pan="-139.53" id="Point04" skinid="hsu" distance="70.9036" target="41.0491/0.686796/70" title="" url="{node21}" tilt="-0.62" description="Катание на лошадях"/>
+      <hotspot pan="169.43" id="Point05" skinid="hsu" distance="1248.37" target="12.2924/-10.5009/70" title="" url="{node13}" tilt="-2.19" description="Театрализованное представление"/>
+      <hotspot pan="-175.02" id="Point06" skinid="hsu" distance="47.832" target="10.0661/-42.4669/75" title="" url="{node11}" tilt="-2.46" description="Торговые ряды"/>
+      <hotspot pan="155.66" id="Point07" skinid="hsu" distance="64.6499" target="-76.8978/-22.7588/90.8731" title="" url="{node14}" tilt="-1.13" description="Театрализованное представление"/>
+      <hotspot pan="131.83" id="Point08" skinid="hsu" distance="59.9726" target="-4.24201/-27.7559/70" title="" url="{node29}" tilt="-0.82" description="Реконструкторы ,викинги"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node23" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/17=IMG_20230722_151140_4727203 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476185" heading="0" tags="vt" source="" longitude="40.474590" title="" author="" comment="" nodeid="node23" datetime="" info="" copyright="" description="Битва рыцарей"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="156.18" id="Point02" skinid="hsu" distance="41.6568" target="3.74531/-9.08091/70" title="" url="{node12}" tilt="-3.16" description=""/>
+      <hotspot pan="101.86" id="Point04" skinid="hsu" distance="27.7738" target="-10.7775/-45.2755/70" title="" url="{node29}" tilt="-2.61" description="Реконструкторы ,викинги"/>
+      <hotspot pan="-164.87" id="Point05" skinid="hsu" distance="70.0853" target="30.0671/-12.5431/70" title="" url="{node21}" tilt="-0.91" description="Катание на лошадях"/>
+      <hotspot pan="-129.47" id="Point06" skinid="hsu" target="162.835/3.19207/70" title="" url="{node20}" tilt="0.35" description="Игровая зона"/>
+      <hotspot pan="120.33" id="Point07" skinid="hsu" distance="28.5696" target="62.608/-14.8915/75" title="" url="{node10}" tilt="-2.82" description="Театрализованное представление"/>
+      <hotspot pan="43.74" id="Point08" skinid="hsu" distance="33.7571" target="48.8321/-2.17359/70" title="" url="{node24}" tilt="-0.52" description="Сцена фестиваля"/>
+      <hotspot pan="67.93" id="Point09" skinid="hsu" distance="75.9838" target="1.7/-36.8/83.7" title="05-IMG_20230722_152504_4727234" url="{node9}" tilt="-1.49" description="Реконструкторы , ВОВ"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/09-IMG_20230722_154249_4727375 Panorama_-pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476602" heading="0" tags="vt" source="" longitude="40.475383" title="" author="" comment="" nodeid="node15" datetime="" info="" copyright="" description="Зона отдыха"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="95.39" id="Point01" skinid="hsu" distance="39.6336" target="50.2183/-45.5645/70" title="" url="{node14}" tilt="-2.74" description="Торговые ряды"/>
+      <hotspot pan="-97.01" id="Point02" skinid="hsu" distance="14.1278" target="79.1651/-1.46846/70" title="" url="{node16}" tilt="-1.33" description="Зона отдыха"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/10=IMG_20230722_154850_4727390 Panorama=pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476625" heading="0" tags="vt" source="" longitude="40.475673" title="" author="" comment="" nodeid="node16" datetime="" info="" copyright="" description="Зона отдыха"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-51.84" id="Point01" skinid="hsu" distance="14.1278" target="69.8928/-12.3995/70" title="" url="{node15}" tilt="-2.26" description="Зона отдыха"/>
+      <hotspot pan="71.76" id="Point02" skinid="hsu" distance="34.0367" target="32.6978/-8.3806/59.6557" title="" url="{node17}" tilt="-0.73" description="Зона отдыха"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/11-MG_20230722_155027_4727406 Panorama=pano/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476397" heading="0" tags="vt" source="" longitude="40.476147" title="" author="" comment="" nodeid="node17" datetime="" info="" copyright="" description="Зона отдыха"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-159.02" id="Point01" skinid="hsu" distance="34.0367" target="-104.742/-3.62238/70" title="" url="{node16}" tilt="-0.3" description="Зона отдыха"/>
+      <hotspot pan="-135.9" id="Point02" skinid="ht_node" distance="34.0367" target="-81.9/1.2/70.0" title="" url="{node16}" tilt="-0.4" description="Зона отдыха"/>
+      <hotspot pan="-9.86" id="Point03" skinid="hsu" distance="30.6166" target="-14.0127/-37.5122/90.8731" title="" url="{node25}" tilt="-1.91" description="Реконструкторы ВОВ"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <panorama id="node28" hideabout="1">
+    <input levelingpitch="0" levelingroll="0" height="1728" overlap="1" levelbias="0.400" levelbiashidpi="0.400" width="1728" leveltilesize="510" leveltileurl="tiles/22-IMG_20230722_184547_4727859 Panorama/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1728" preload="0" predecode="0" width="1728"/>
+      <level height="864" preload="0" predecode="0" width="864"/>
+      <level height="432" preload="1" predecode="1" width="432"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata customnodeid="" latitude="64.476910" heading="0" tags="vt" source="" longitude="40.468690" title="" author="" comment="" nodeid="node28" datetime="" info="" copyright="" description="Парковка КСК"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" bordercolor="0x000000" height="20" border="1" wordwrap="1" textcolor="0x000000" enabled="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="13.68" id="Point01" skinid="hsu" distance="197.103" target="1.36782/2.31257/70" title="" url="{node22}" tilt="1.22" description="Вход в КСК &quot;Кантри Клаб&quot;"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" zoomoutpause="1" softedge="0" blendtime="1" zoomout="0" enabled="1" blendcolor="0x000000" zoomspeed="2" zoomin="0" type="crossdissolve"/>
+    <autorotate speed="0.100" returntohorizon="0.100" nodefilter="" enabled="1" delay="6.00" useanimation="0" startloaded="0" nodedelay="8.00" noderandom="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" invertwheel="0" sensitivity="8" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" simulatemass="1" contextfullscreen="1" contextprojections="0" speedwheel="1">
+      <menulink text="www.takeawalkvr.com" url="www.takeawalkvr.com"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata customnodeid="" latitude="" heading="0" tags="" source="" longitude="" title="" author="" comment="" nodeid="master" datetime="" info="" copyright="" description=""/>
+  </masternode>
+</tour>
